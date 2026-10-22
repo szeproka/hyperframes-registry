@@ -32,6 +32,9 @@ VIDEO_BASE = PREVIEW_BASE
 # Links written on 2026-10-22 pointed at jsDelivr; they are ours too and get rewritten.
 LEGACY_PREVIEW_BASE = "https://cdn.jsdelivr.net/gh/szeproka/hyperframes-registry@main/previews/"
 OUR_BASES = (PREVIEW_BASE, LEGACY_PREVIEW_BASE)
+# Items never rendered for a preview: ascii-render-pass's render picked up a personal video of
+# the owner's (2026-10-22), so it ships with no preview at all.
+NO_PREVIEW = {"ascii-render-pass"}
 TYPE_DIRS = {"hyperframes:block": "blocks", "hyperframes:component": "components"}
 
 
@@ -385,6 +388,10 @@ def refresh_previews():
     kept = from_video = rendered = failed = videos = 0
     todo = []
     for type_dir, name, path, it in items:
+        if name in NO_PREVIEW:
+            it.pop("preview", None)
+            write_json(path, it)
+            continue
         pv = dict(it.get("preview") or {})
         if "video" in pv and not pv["video"].startswith(OUR_BASES) and not ok.get(pv["video"], False):
             pv.pop("video")

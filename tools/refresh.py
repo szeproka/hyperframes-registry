@@ -23,9 +23,13 @@ PREVIEWS = os.path.join(ROOT, "previews")
 WORK = os.path.expanduser("~/.cache/hyperframes-registry-refresh")
 UPSTREAM_GIT = "https://github.com/heygen-com/hyperframes.git"
 UPSTREAM_PARTS = ["blocks", "components", "examples", "catalog-artifact", "registry.json"]
-PREVIEW_BASE = "https://raw.githubusercontent.com/szeproka/hyperframes-registry/main/previews/"
-# Videos go through jsDelivr: raw.githubusercontent serves .mp4 without a video content type.
-VIDEO_BASE = "https://cdn.jsdelivr.net/gh/szeproka/hyperframes-registry@main/previews/"
+# Previews go through jsDelivr: browsers may keep its files 7 days (raw.githubusercontent: 5 min) and it
+# serves .mp4 as video/mp4 (raw.githubusercontent: application/octet-stream).
+PREVIEW_BASE = "https://cdn.jsdelivr.net/gh/szeproka/hyperframes-registry@main/previews/"
+VIDEO_BASE = PREVIEW_BASE
+# Poster links written before 2026-10-22 pointed here; they are ours too and get rewritten.
+LEGACY_PREVIEW_BASE = "https://raw.githubusercontent.com/szeproka/hyperframes-registry/main/previews/"
+OUR_BASES = (PREVIEW_BASE, LEGACY_PREVIEW_BASE)
 TYPE_DIRS = {"hyperframes:block": "blocks", "hyperframes:component": "components"}
 
 
@@ -371,7 +375,7 @@ def refresh_previews():
             p = os.path.join(REG, type_dir, name, "registry-item.json")
             if os.path.exists(p):
                 items.append((type_dir, name, p, json.load(open(p))))
-    urls = sorted({u for _, _, _, it in items for k, u in (it.get("preview") or {}).items() if not u.startswith((PREVIEW_BASE, VIDEO_BASE))})
+    urls = sorted({u for _, _, _, it in items for k, u in (it.get("preview") or {}).items() if not u.startswith(OUR_BASES)})
     log(f"Checking {len(urls)} official preview links...")
     with ThreadPoolExecutor(24) as ex:
         ok = dict(zip(urls, ex.map(http_ok, urls)))
@@ -380,15 +384,15 @@ def refresh_previews():
     todo = []
     for type_dir, name, path, it in items:
         pv = dict(it.get("preview") or {})
-        if "video" in pv and not pv["video"].startswith(VIDEO_BASE) and not ok.get(pv["video"], False):
+        if "video" in pv and not pv["video"].startswith(OUR_BASES) and not ok.get(pv["video"], False):
             pv.pop("video")
-        if "video" not in pv or pv["video"].startswith(VIDEO_BASE):
+        if "video" not in pv or pv["video"].startswith(OUR_BASES):
             video = os.path.join(PREVIEWS, name + ".mp4")
             if os.path.exists(video) or render_video(name, type_dir, video):
                 pv["video"] = VIDEO_BASE + name + ".mp4"
                 videos += 1
         poster = pv.get("poster")
-        if poster and not poster.startswith(PREVIEW_BASE) and ok.get(poster, False):
+        if poster and not poster.startswith(OUR_BASES) and ok.get(poster, False):
             it["preview"] = pv
             write_json(path, it)
             continue

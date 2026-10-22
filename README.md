@@ -24,3 +24,14 @@ Studio's Catalog tab and `hyperframes add` then read this registry instead of th
 | Previews | 334 of 448 items have no poster, or a poster/video URL that answers 403 | Posters rendered from each item's own demo, stored in `previews/`; dead video links removed |
 
 Everything else is unchanged from upstream commit noted in `UPSTREAM`.
+
+## Refresh from upstream
+
+```sh
+python3 tools/refresh.py            # fetch upstream, re-apply the fixes, posters for new items, commit, push
+python3 tools/refresh.py --no-push  # same, without pushing
+```
+
+The fixes skip themselves once upstream has fixed the item, and stop with a clear message if
+upstream changed the code around them. Posters already made are kept; new items get one from
+their official preview video or a render through the HyperFrames CLI.

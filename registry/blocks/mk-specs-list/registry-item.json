@@ -23,6 +23,7 @@
     }
   ],
   "preview": {
+    "video": "https://cdn.jsdelivr.net/gh/szeproka/hyperframes-registry@main/previews/mk-specs-list.mp4",
     "poster": "https://raw.githubusercontent.com/szeproka/hyperframes-registry/main/previews/mk-specs-list.jpg"
   }
 }

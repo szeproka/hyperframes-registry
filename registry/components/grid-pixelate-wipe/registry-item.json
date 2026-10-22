@@ -18,6 +18,7 @@
     }
   ],
   "preview": {
-    "poster": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/components/grid-pixelate-wipe.png"
+    "poster": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/components/grid-pixelate-wipe.png",
+    "video": "https://cdn.jsdelivr.net/gh/szeproka/hyperframes-registry@main/previews/grid-pixelate-wipe.mp4"
   }
 }

@@ -20,6 +20,7 @@
     }
   ],
   "preview": {
-    "poster": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/components/parallax-unzoom.png"
+    "poster": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/components/parallax-unzoom.png",
+    "video": "https://cdn.jsdelivr.net/gh/szeproka/hyperframes-registry@main/previews/parallax-unzoom.mp4"
   }
 }

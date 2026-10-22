@@ -19,6 +19,7 @@
     }
   ],
   "preview": {
-    "poster": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/components/parallax-zoom.png"
+    "poster": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/components/parallax-zoom.png",
+    "video": "https://cdn.jsdelivr.net/gh/szeproka/hyperframes-registry@main/previews/parallax-zoom.mp4"
   }
 }

@@ -60,6 +60,7 @@
     }
   ],
   "preview": {
+    "video": "https://cdn.jsdelivr.net/gh/szeproka/hyperframes-registry@main/previews/vector-editor-rig.mp4",
     "poster": "https://raw.githubusercontent.com/szeproka/hyperframes-registry/main/previews/vector-editor-rig.jpg"
   }
 }

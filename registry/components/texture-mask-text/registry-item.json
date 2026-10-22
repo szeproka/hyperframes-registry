@@ -447,6 +447,7 @@
     }
   ],
   "preview": {
-    "poster": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/components/texture-mask-text.png"
+    "poster": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/components/texture-mask-text.png",
+    "video": "https://cdn.jsdelivr.net/gh/szeproka/hyperframes-registry@main/previews/texture-mask-text.mp4"
   }
 }

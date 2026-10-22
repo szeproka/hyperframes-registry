@@ -78,6 +78,7 @@
     }
   ],
   "preview": {
+    "video": "https://cdn.jsdelivr.net/gh/szeproka/hyperframes-registry@main/previews/chromatic-aberration-wipe.mp4",
     "poster": "https://raw.githubusercontent.com/szeproka/hyperframes-registry/main/previews/chromatic-aberration-wipe.jpg"
   }
 }

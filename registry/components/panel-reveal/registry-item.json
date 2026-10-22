@@ -86,6 +86,7 @@
     }
   ],
   "preview": {
+    "video": "https://cdn.jsdelivr.net/gh/szeproka/hyperframes-registry@main/previews/panel-reveal.mp4",
     "poster": "https://raw.githubusercontent.com/szeproka/hyperframes-registry/main/previews/panel-reveal.jpg"
   }
 }

@@ -15,6 +15,7 @@
     }
   ],
   "preview": {
+    "video": "https://cdn.jsdelivr.net/gh/szeproka/hyperframes-registry@main/previews/spotlight-card.mp4",
     "poster": "https://raw.githubusercontent.com/szeproka/hyperframes-registry/main/previews/spotlight-card.jpg"
   }
 }

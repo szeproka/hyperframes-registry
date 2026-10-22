@@ -24,6 +24,8 @@ WORK = os.path.expanduser("~/.cache/hyperframes-registry-refresh")
 UPSTREAM_GIT = "https://github.com/heygen-com/hyperframes.git"
 UPSTREAM_PARTS = ["blocks", "components", "examples", "catalog-artifact", "registry.json"]
 PREVIEW_BASE = "https://raw.githubusercontent.com/szeproka/hyperframes-registry/main/previews/"
+# Videos go through jsDelivr: raw.githubusercontent serves .mp4 without a video content type.
+VIDEO_BASE = "https://cdn.jsdelivr.net/gh/szeproka/hyperframes-registry@main/previews/"
 TYPE_DIRS = {"hyperframes:block": "blocks", "hyperframes:component": "components"}
 
 
@@ -237,22 +239,23 @@ def host_page(src, cid, dur, w, h):
 <div class="clip" data-composition-id="{cid}" data-composition-src="{src}" data-start="0" data-duration="{dur}" data-width="{w}" data-height="{h}"></div></div></body></html>"""
 
 
-def render_poster(name, type_dir, dst):
-    """Install the item in a scratch project, play it as Studio would and keep the richest of 3 frames."""
+def prepare_page(name, type_dir):
+    """Install the item in a scratch project and write an index.html that plays it as Studio would.
+    Returns (project dir, duration) or None."""
     proj = render_project()
     r = run(["hyperframes", "add", name, "--json"], cwd=proj, check=False, timeout=300)
     try:
         written = [os.path.relpath(p, proj) for p in json.loads(r.stdout)["written"]]
     except (ValueError, KeyError):
-        return False
+        return None
     html_path = next((p for p in written if p.endswith(name + ".html")), None)
     if not html_path:
-        return False
+        return None
     item = json.load(open(os.path.join(REG, type_dir, name, "registry-item.json")))
     if type_dir == "components":
         demo = os.path.join(REG, type_dir, name, "demo.html")
         if not os.path.exists(demo):
-            return False
+            return None
         page = open(demo).read()
         page = re.sub(r'data-composition-src="\./[^"]+"', f'data-composition-src="{html_path}"', page)
         if re.search(r"<body[^>]*>\s*<template(?![^>]*data-slot)", page):
@@ -264,7 +267,15 @@ def render_poster(name, type_dir, dst):
         dims = item.get("dimensions") or {}
         page = host_page(html_path, cid, item.get("duration") or 5, dims.get("width", 1920), dims.get("height", 1080))
     open(os.path.join(proj, "index.html"), "w").write(page)
-    dur = float((re.search(r'data-duration="([0-9.]+)"', page) or [None, "5"])[1])
+    return proj, float((re.search(r'data-duration="([0-9.]+)"', page) or [None, "5"])[1])
+
+
+def render_poster(name, type_dir, dst):
+    """Keep the richest of 3 frames."""
+    prepared = prepare_page(name, type_dir)
+    if not prepared:
+        return False
+    proj, dur = prepared
     tmp = os.path.join(WORK, "frames")
     shutil.rmtree(tmp, ignore_errors=True)
     times = ",".join(f"{dur * f:.2f}" for f in (0.4, 0.6, 0.8))
@@ -276,6 +287,30 @@ def render_poster(name, type_dir, dst):
     return to_jpg(best, dst)
 
 
+def render_video(name, type_dir, dst):
+    """Small looping hover preview: draft render, 640 px wide, at most 8 s, no audio."""
+    prepared = prepare_page(name, type_dir)
+    if not prepared:
+        return False
+    proj, _ = prepared
+    # Transparent compositions export on white but show on black in Studio and in the posters: pin black.
+    index = os.path.join(proj, "index.html")
+    page = open(index).read()
+    pin = "<style>html,body{background:#000 !important}</style>"
+    if pin not in page:
+        page = re.sub(r"(<head[^>]*>)", lambda m: m.group(1) + pin, page, count=1) if re.search(r"<head[^>]*>", page) else pin + page
+        open(index, "w").write(page)
+    tmp = os.path.join(WORK, "preview-tmp.mp4")
+    if os.path.exists(tmp):
+        os.remove(tmp)
+    subprocess.run(["hyperframes", "render", "--quality", "draft", "--fps", "24", "--workers", "1", "--quiet", "-o", tmp], cwd=proj, capture_output=True, timeout=900)
+    if not (os.path.exists(tmp) and os.path.getsize(tmp)):
+        return False
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", tmp, "-t", "8", "-an", "-vf", "scale='min(640,iw)':-2", "-c:v", "libx264",
+                    "-preset", "slow", "-crf", "28", "-pix_fmt", "yuv420p", "-movflags", "+faststart", dst], capture_output=True)
+    return os.path.exists(dst) and os.path.getsize(dst) > 0
+
+
 def refresh_previews():
     items = []
     for type_dir in ("blocks", "components"):
@@ -283,17 +318,22 @@ def refresh_previews():
             p = os.path.join(REG, type_dir, name, "registry-item.json")
             if os.path.exists(p):
                 items.append((type_dir, name, p, json.load(open(p))))
-    urls = sorted({u for _, _, _, it in items for k, u in (it.get("preview") or {}).items() if not u.startswith(PREVIEW_BASE)})
+    urls = sorted({u for _, _, _, it in items for k, u in (it.get("preview") or {}).items() if not u.startswith((PREVIEW_BASE, VIDEO_BASE))})
     log(f"Checking {len(urls)} official preview links...")
     with ThreadPoolExecutor(24) as ex:
         ok = dict(zip(urls, ex.map(http_ok, urls)))
     os.makedirs(PREVIEWS, exist_ok=True)
-    kept = from_video = rendered = failed = 0
+    kept = from_video = rendered = failed = videos = 0
     todo = []
     for type_dir, name, path, it in items:
         pv = dict(it.get("preview") or {})
-        if "video" in pv and not ok.get(pv["video"], False):
+        if "video" in pv and not pv["video"].startswith(VIDEO_BASE) and not ok.get(pv["video"], False):
             pv.pop("video")
+        if "video" not in pv or pv["video"].startswith(VIDEO_BASE):
+            video = os.path.join(PREVIEWS, name + ".mp4")
+            if os.path.exists(video) or render_video(name, type_dir, video):
+                pv["video"] = VIDEO_BASE + name + ".mp4"
+                videos += 1
         poster = pv.get("poster")
         if poster and not poster.startswith(PREVIEW_BASE) and ok.get(poster, False):
             it["preview"] = pv
@@ -323,8 +363,9 @@ def refresh_previews():
         write_json(path, it)
     names = {name for _, name, _, _ in items}
     for f in os.listdir(PREVIEWS):
-        if f.endswith(".jpg") and f[:-4] not in names:
+        if f.endswith((".jpg", ".mp4")) and f[:-4] not in names:
             os.remove(os.path.join(PREVIEWS, f))
+    log(f"    hover videos of our own: {videos}")
     return kept, from_video, rendered, failed
 
 

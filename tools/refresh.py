@@ -190,6 +190,59 @@ def patch_vfx_shatter():
 PATCHES = [("us-map", patch_us_map), ("vfx-magnetic", patch_vfx_magnetic), ("vfx-shatter", patch_vfx_shatter)]
 
 
+# ── 2b. Studio tabs ──────────────────────────────────────────────────────────────────
+
+# Studio's catalog tabs only know a few tags; these rules add the one it looks for (originals kept).
+TAG_RULES = [
+    ("code-animation", {"code", "terminal", "vscode"}, set()),
+    ("transition", {"transition-primitive", "transitions-dev-port"}, set()),
+    ("social", {"mock-ui", "chat", "notification", "notifications", "social-proof", "testimonial", "social-overlay",
+                "share-sheet", "avatar", "avatars", "lower-third"}, set()),
+    ("data", {"data-viz", "stat", "stats", "counter", "gauge", "diagram", "flowchart", "finance", "telemetry"}, set()),
+    ("shader", {"webgpu", "webgpu-shader", "vfx", "3d-motion", "ascii", "particles", "slit-scan", "svg-filter", "hologram", "canvas"},
+     {"text-effects", "typography", "text"}),
+    ("text-effect", {"typography", "text", "text-effects", "kinetic-type", "kinetic-text", "text-treatment", "letters",
+                     "typewriter", "headline", "type", "wordmark", "title", "typing"}, {"carousel", "cursor"}),
+    ("effect", {"effects", "cursor", "camera", "background", "pointer", "pointers", "gesture", "beat", "spring", "trail"}, {"character"}),
+]
+
+def studio_tab(tags):
+    """The tab Studio's Catalog panel files an item under (its first matching tag, as Studio's own code does)."""
+    t = set(tags or [])
+    if not t: return "scenes"
+    for name, keys in [("captions", {"captions", "caption-style"}), ("code-animation", {"code-animation"}), ("transitions", {"transition"}),
+                       ("social", {"social", "overlay"}), ("data", {"data", "chart", "map"}), ("vfx", {"html-in-canvas", "webgl", "shader"}),
+                       ("text-effects", {"text-effect"}), ("effects", {"effect", "grain", "vignette"})]:
+        if t & keys: return name
+    return "scenes"
+
+def with_studio_tags(tags):
+    """The item's tags plus, at most, the one tag that moves it out of the catch-all Scenes tab."""
+    out = list(tags or [])
+    for added, triggers, excludes in TAG_RULES:
+        if studio_tab(out) != "scenes": break
+        t = set(out)
+        if t & triggers and not t & excludes and added not in t:
+            out.append(added)
+    return out
+
+
+def apply_studio_tags():
+    moved = 0
+    for type_dir in ("blocks", "components"):
+        for name in os.listdir(os.path.join(REG, type_dir)):
+            path = os.path.join(REG, type_dir, name, "registry-item.json")
+            if not os.path.exists(path):
+                continue
+            item = json.load(open(path))
+            tags = with_studio_tags(item.get("tags"))
+            if tags != (item.get("tags") or []):
+                item["tags"] = tags
+                write_json(path, item)
+                moved += 1
+    return moved
+
+
 # ── 3. Previews ─────────────────────────────────────────────────────────────────
 
 def write_json(path, data):
@@ -403,6 +456,7 @@ def main():
     log("2/4 Re-applying fixes...")
     for name, fn in PATCHES:
         log(f"    {name}: {fn()}")
+    log(f"    Studio tabs: {apply_studio_tags()} items given the tag their tab needs")
     log("3/4 Previews...")
     kept, from_video, rendered, failed = refresh_previews()
     log(f"    posters: {kept} kept, {from_video} from official videos, {rendered} rendered, {failed} failed")

@@ -97,6 +97,6 @@
   ],
   "preview": {
     "video": "https://cdn.jsdelivr.net/gh/szeproka/hyperframes-registry@main/previews/oversized-cursor.mp4",
-    "poster": "https://raw.githubusercontent.com/szeproka/hyperframes-registry/main/previews/oversized-cursor.jpg"
+    "poster": "https://cdn.jsdelivr.net/gh/szeproka/hyperframes-registry@main/previews/oversized-cursor.jpg"
   }
 }

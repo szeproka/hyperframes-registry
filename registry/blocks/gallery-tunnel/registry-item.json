@@ -190,6 +190,6 @@
   ],
   "preview": {
     "video": "https://cdn.jsdelivr.net/gh/szeproka/hyperframes-registry@main/previews/gallery-tunnel.mp4",
-    "poster": "https://raw.githubusercontent.com/szeproka/hyperframes-registry/main/previews/gallery-tunnel.jpg"
+    "poster": "https://cdn.jsdelivr.net/gh/szeproka/hyperframes-registry@main/previews/gallery-tunnel.jpg"
   }
 }

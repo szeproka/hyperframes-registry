@@ -45,6 +45,6 @@
   ],
   "preview": {
     "video": "https://cdn.jsdelivr.net/gh/szeproka/hyperframes-registry@main/previews/titlecard-calm.mp4",
-    "poster": "https://raw.githubusercontent.com/szeproka/hyperframes-registry/main/previews/titlecard-calm.jpg"
+    "poster": "https://cdn.jsdelivr.net/gh/szeproka/hyperframes-registry@main/previews/titlecard-calm.jpg"
   }
 }

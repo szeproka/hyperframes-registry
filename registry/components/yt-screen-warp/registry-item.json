@@ -18,6 +18,6 @@
   ],
   "preview": {
     "video": "https://cdn.jsdelivr.net/gh/szeproka/hyperframes-registry@main/previews/yt-screen-warp.mp4",
-    "poster": "https://raw.githubusercontent.com/szeproka/hyperframes-registry/main/previews/yt-screen-warp.jpg"
+    "poster": "https://cdn.jsdelivr.net/gh/szeproka/hyperframes-registry@main/previews/yt-screen-warp.jpg"
   }
 }

@@ -83,6 +83,6 @@
   ],
   "preview": {
     "video": "https://cdn.jsdelivr.net/gh/szeproka/hyperframes-registry@main/previews/text-state-swap.mp4",
-    "poster": "https://raw.githubusercontent.com/szeproka/hyperframes-registry/main/previews/text-state-swap.jpg"
+    "poster": "https://cdn.jsdelivr.net/gh/szeproka/hyperframes-registry@main/previews/text-state-swap.jpg"
   }
 }

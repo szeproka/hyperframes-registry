@@ -1,0 +1,22 @@
+{
+  "$schema": "https://hyperframes.heygen.com/schema/registry-item.json",
+  "name": "yt-circle-pointer",
+  "type": "hyperframes:component",
+  "title": "Pointer Circle + Countdown",
+  "description": "Draw-on annotation ellipse around a target plus a countdown chip that pulses each tick",
+  "tags": [
+    "annotation",
+    "countdown",
+    "overlay"
+  ],
+  "files": [
+    {
+      "path": "yt-circle-pointer.html",
+      "target": "compositions/components/yt-circle-pointer.html",
+      "type": "hyperframes:snippet"
+    }
+  ],
+  "preview": {
+    "poster": "https://raw.githubusercontent.com/szeproka/hyperframes-registry/main/previews/yt-circle-pointer.jpg"
+  }
+}

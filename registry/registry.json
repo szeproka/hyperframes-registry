@@ -704,58 +704,6 @@
       "type": "hyperframes:block"
     },
     {
-      "name": "transitions-3d",
-      "type": "hyperframes:block"
-    },
-    {
-      "name": "transitions-blur",
-      "type": "hyperframes:block"
-    },
-    {
-      "name": "transitions-cover",
-      "type": "hyperframes:block"
-    },
-    {
-      "name": "transitions-destruction",
-      "type": "hyperframes:block"
-    },
-    {
-      "name": "transitions-dissolve",
-      "type": "hyperframes:block"
-    },
-    {
-      "name": "transitions-distortion",
-      "type": "hyperframes:block"
-    },
-    {
-      "name": "transitions-grid",
-      "type": "hyperframes:block"
-    },
-    {
-      "name": "transitions-light",
-      "type": "hyperframes:block"
-    },
-    {
-      "name": "transitions-mechanical",
-      "type": "hyperframes:block"
-    },
-    {
-      "name": "transitions-other",
-      "type": "hyperframes:block"
-    },
-    {
-      "name": "transitions-push",
-      "type": "hyperframes:block"
-    },
-    {
-      "name": "transitions-radial",
-      "type": "hyperframes:block"
-    },
-    {
-      "name": "transitions-scale",
-      "type": "hyperframes:block"
-    },
-    {
       "name": "ui-3d-reveal",
       "type": "hyperframes:block"
     },
@@ -1826,6 +1774,138 @@
     {
       "name": "zoom-through-transition",
       "type": "hyperframes:component"
+    },
+    {
+      "name": "transition-3d-card-flip",
+      "type": "hyperframes:block"
+    },
+    {
+      "name": "transition-blur-through",
+      "type": "hyperframes:block"
+    },
+    {
+      "name": "transition-directional-blur",
+      "type": "hyperframes:block"
+    },
+    {
+      "name": "transition-calm-blur-through",
+      "type": "hyperframes:block"
+    },
+    {
+      "name": "transition-staggered-blocks",
+      "type": "hyperframes:block"
+    },
+    {
+      "name": "transition-horizontal-blinds",
+      "type": "hyperframes:block"
+    },
+    {
+      "name": "transition-vertical-blinds",
+      "type": "hyperframes:block"
+    },
+    {
+      "name": "transition-page-burn",
+      "type": "hyperframes:block"
+    },
+    {
+      "name": "transition-crossfade",
+      "type": "hyperframes:block"
+    },
+    {
+      "name": "transition-blur-crossfade",
+      "type": "hyperframes:block"
+    },
+    {
+      "name": "transition-focus-pull",
+      "type": "hyperframes:block"
+    },
+    {
+      "name": "transition-color-dip",
+      "type": "hyperframes:block"
+    },
+    {
+      "name": "transition-glitch-distortion",
+      "type": "hyperframes:block"
+    },
+    {
+      "name": "transition-chromatic-aberration",
+      "type": "hyperframes:block"
+    },
+    {
+      "name": "transition-ripple-distortion",
+      "type": "hyperframes:block"
+    },
+    {
+      "name": "transition-grid-dissolve",
+      "type": "hyperframes:block"
+    },
+    {
+      "name": "transition-light-leak",
+      "type": "hyperframes:block"
+    },
+    {
+      "name": "transition-overexposure-burn",
+      "type": "hyperframes:block"
+    },
+    {
+      "name": "transition-film-burn",
+      "type": "hyperframes:block"
+    },
+    {
+      "name": "transition-shutter",
+      "type": "hyperframes:block"
+    },
+    {
+      "name": "transition-clock-wipe",
+      "type": "hyperframes:block"
+    },
+    {
+      "name": "transition-flash-cut",
+      "type": "hyperframes:block"
+    },
+    {
+      "name": "transition-gravity-drop",
+      "type": "hyperframes:block"
+    },
+    {
+      "name": "transition-morph-circle",
+      "type": "hyperframes:block"
+    },
+    {
+      "name": "transition-push-slide",
+      "type": "hyperframes:block"
+    },
+    {
+      "name": "transition-vertical-push",
+      "type": "hyperframes:block"
+    },
+    {
+      "name": "transition-elastic-push",
+      "type": "hyperframes:block"
+    },
+    {
+      "name": "transition-squeeze",
+      "type": "hyperframes:block"
+    },
+    {
+      "name": "transition-circle-iris",
+      "type": "hyperframes:block"
+    },
+    {
+      "name": "transition-diamond-iris",
+      "type": "hyperframes:block"
+    },
+    {
+      "name": "transition-diagonal-split",
+      "type": "hyperframes:block"
+    },
+    {
+      "name": "transition-zoom-through",
+      "type": "hyperframes:block"
+    },
+    {
+      "name": "transition-zoom-out",
+      "type": "hyperframes:block"
     }
   ],
   "catalogArtifact": {

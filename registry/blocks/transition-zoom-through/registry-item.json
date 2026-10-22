@@ -1,0 +1,26 @@
+{
+  "$schema": "https://hyperframes.heygen.com/schema/registry-item.json",
+  "name": "transition-zoom-through",
+  "type": "hyperframes:block",
+  "title": "Zoom Through",
+  "description": "Zoom Through transition between two scenes",
+  "tags": [
+    "transition"
+  ],
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "duration": 4.5,
+  "files": [
+    {
+      "path": "transition-zoom-through.html",
+      "target": "compositions/transition-zoom-through.html",
+      "type": "hyperframes:composition"
+    }
+  ],
+  "preview": {
+    "video": "https://raw.githubusercontent.com/szeproka/hyperframes-registry/main/previews/transition-zoom-through.mp4",
+    "poster": "https://raw.githubusercontent.com/szeproka/hyperframes-registry/main/previews/transition-zoom-through.jpg"
+  }
+}

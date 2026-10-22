@@ -1,0 +1,26 @@
+{
+  "$schema": "https://hyperframes.heygen.com/schema/registry-item.json",
+  "name": "transition-diagonal-split",
+  "type": "hyperframes:block",
+  "title": "Diagonal Split",
+  "description": "Diagonal Split transition between two scenes",
+  "tags": [
+    "transition"
+  ],
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "duration": 3.5,
+  "files": [
+    {
+      "path": "transition-diagonal-split.html",
+      "target": "compositions/transition-diagonal-split.html",
+      "type": "hyperframes:composition"
+    }
+  ],
+  "preview": {
+    "video": "https://raw.githubusercontent.com/szeproka/hyperframes-registry/main/previews/transition-diagonal-split.mp4",
+    "poster": "https://raw.githubusercontent.com/szeproka/hyperframes-registry/main/previews/transition-diagonal-split.jpg"
+  }
+}

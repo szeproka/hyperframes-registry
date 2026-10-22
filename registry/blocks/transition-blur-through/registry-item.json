@@ -1,0 +1,26 @@
+{
+  "$schema": "https://hyperframes.heygen.com/schema/registry-item.json",
+  "name": "transition-blur-through",
+  "type": "hyperframes:block",
+  "title": "Blur Through",
+  "description": "Blur Through transition between two scenes",
+  "tags": [
+    "transition"
+  ],
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "duration": 4.5,
+  "files": [
+    {
+      "path": "transition-blur-through.html",
+      "target": "compositions/transition-blur-through.html",
+      "type": "hyperframes:composition"
+    }
+  ],
+  "preview": {
+    "video": "https://raw.githubusercontent.com/szeproka/hyperframes-registry/main/previews/transition-blur-through.mp4",
+    "poster": "https://raw.githubusercontent.com/szeproka/hyperframes-registry/main/previews/transition-blur-through.jpg"
+  }
+}

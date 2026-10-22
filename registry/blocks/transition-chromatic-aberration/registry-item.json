@@ -1,0 +1,26 @@
+{
+  "$schema": "https://hyperframes.heygen.com/schema/registry-item.json",
+  "name": "transition-chromatic-aberration",
+  "type": "hyperframes:block",
+  "title": "Chromatic Aberration",
+  "description": "Chromatic Aberration transition between two scenes",
+  "tags": [
+    "transition"
+  ],
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "duration": 5,
+  "files": [
+    {
+      "path": "transition-chromatic-aberration.html",
+      "target": "compositions/transition-chromatic-aberration.html",
+      "type": "hyperframes:composition"
+    }
+  ],
+  "preview": {
+    "video": "https://raw.githubusercontent.com/szeproka/hyperframes-registry/main/previews/transition-chromatic-aberration.mp4",
+    "poster": "https://raw.githubusercontent.com/szeproka/hyperframes-registry/main/previews/transition-chromatic-aberration.jpg"
+  }
+}

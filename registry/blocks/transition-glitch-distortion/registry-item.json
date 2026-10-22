@@ -1,0 +1,26 @@
+{
+  "$schema": "https://hyperframes.heygen.com/schema/registry-item.json",
+  "name": "transition-glitch-distortion",
+  "type": "hyperframes:block",
+  "title": "Glitch Distortion",
+  "description": "Glitch Distortion transition between two scenes",
+  "tags": [
+    "transition"
+  ],
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "duration": 5,
+  "files": [
+    {
+      "path": "transition-glitch-distortion.html",
+      "target": "compositions/transition-glitch-distortion.html",
+      "type": "hyperframes:composition"
+    }
+  ],
+  "preview": {
+    "video": "https://raw.githubusercontent.com/szeproka/hyperframes-registry/main/previews/transition-glitch-distortion.mp4",
+    "poster": "https://raw.githubusercontent.com/szeproka/hyperframes-registry/main/previews/transition-glitch-distortion.jpg"
+  }
+}

@@ -17,6 +17,9 @@ import subprocess
 import sys
 from concurrent.futures import ThreadPoolExecutor
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import split_transitions  # noqa: E402
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 REG = os.path.join(ROOT, "registry")
 PREVIEWS = os.path.join(ROOT, "previews")
@@ -469,6 +472,7 @@ def main():
     log("2/4 Re-applying fixes...")
     for name, fn in PATCHES:
         log(f"    {name}: {fn()}")
+    log(f"    transitions split: {len(split_transitions.split())} blocks, one per transition")
     log(f"    Studio tabs: {apply_studio_tags()} items given the tag their tab needs")
     log("3/4 Previews...")
     kept, from_video, rendered, failed = refresh_previews()

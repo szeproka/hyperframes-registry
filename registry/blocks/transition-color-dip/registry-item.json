@@ -1,0 +1,27 @@
+{
+  "$schema": "https://hyperframes.heygen.com/schema/registry-item.json",
+  "name": "transition-color-dip",
+  "type": "hyperframes:block",
+  "title": "Color Dip",
+  "description": "Color Dip transition between two scenes",
+  "tags": [
+    "transition",
+    "crossfade"
+  ],
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "duration": 4.5,
+  "files": [
+    {
+      "path": "transition-color-dip.html",
+      "target": "compositions/transition-color-dip.html",
+      "type": "hyperframes:composition"
+    }
+  ],
+  "preview": {
+    "video": "https://raw.githubusercontent.com/szeproka/hyperframes-registry/main/previews/transition-color-dip.mp4",
+    "poster": "https://raw.githubusercontent.com/szeproka/hyperframes-registry/main/previews/transition-color-dip.jpg"
+  }
+}

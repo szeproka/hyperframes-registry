@@ -1,0 +1,26 @@
+{
+  "$schema": "https://hyperframes.heygen.com/schema/registry-item.json",
+  "name": "transition-page-burn",
+  "type": "hyperframes:block",
+  "title": "Page Burn",
+  "description": "Page Burn transition between two scenes",
+  "tags": [
+    "transition"
+  ],
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "duration": 7.5,
+  "files": [
+    {
+      "path": "transition-page-burn.html",
+      "target": "compositions/transition-page-burn.html",
+      "type": "hyperframes:composition"
+    }
+  ],
+  "preview": {
+    "video": "https://raw.githubusercontent.com/szeproka/hyperframes-registry/main/previews/transition-page-burn.mp4",
+    "poster": "https://raw.githubusercontent.com/szeproka/hyperframes-registry/main/previews/transition-page-burn.jpg"
+  }
+}

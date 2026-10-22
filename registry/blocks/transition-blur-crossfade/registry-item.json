@@ -1,0 +1,27 @@
+{
+  "$schema": "https://hyperframes.heygen.com/schema/registry-item.json",
+  "name": "transition-blur-crossfade",
+  "type": "hyperframes:block",
+  "title": "Blur Crossfade",
+  "description": "Blur Crossfade transition between two scenes",
+  "tags": [
+    "transition",
+    "crossfade"
+  ],
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "duration": 4.5,
+  "files": [
+    {
+      "path": "transition-blur-crossfade.html",
+      "target": "compositions/transition-blur-crossfade.html",
+      "type": "hyperframes:composition"
+    }
+  ],
+  "preview": {
+    "video": "https://raw.githubusercontent.com/szeproka/hyperframes-registry/main/previews/transition-blur-crossfade.mp4",
+    "poster": "https://raw.githubusercontent.com/szeproka/hyperframes-registry/main/previews/transition-blur-crossfade.jpg"
+  }
+}

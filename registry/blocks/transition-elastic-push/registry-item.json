@@ -1,0 +1,26 @@
+{
+  "$schema": "https://hyperframes.heygen.com/schema/registry-item.json",
+  "name": "transition-elastic-push",
+  "type": "hyperframes:block",
+  "title": "Elastic Push",
+  "description": "Elastic Push transition between two scenes",
+  "tags": [
+    "transition"
+  ],
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "duration": 4.5,
+  "files": [
+    {
+      "path": "transition-elastic-push.html",
+      "target": "compositions/transition-elastic-push.html",
+      "type": "hyperframes:composition"
+    }
+  ],
+  "preview": {
+    "video": "https://raw.githubusercontent.com/szeproka/hyperframes-registry/main/previews/transition-elastic-push.mp4",
+    "poster": "https://raw.githubusercontent.com/szeproka/hyperframes-registry/main/previews/transition-elastic-push.jpg"
+  }
+}

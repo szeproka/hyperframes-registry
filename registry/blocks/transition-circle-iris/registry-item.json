@@ -1,0 +1,26 @@
+{
+  "$schema": "https://hyperframes.heygen.com/schema/registry-item.json",
+  "name": "transition-circle-iris",
+  "type": "hyperframes:block",
+  "title": "Circle Iris",
+  "description": "Circle Iris transition between two scenes",
+  "tags": [
+    "transition"
+  ],
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "duration": 3.5,
+  "files": [
+    {
+      "path": "transition-circle-iris.html",
+      "target": "compositions/transition-circle-iris.html",
+      "type": "hyperframes:composition"
+    }
+  ],
+  "preview": {
+    "video": "https://raw.githubusercontent.com/szeproka/hyperframes-registry/main/previews/transition-circle-iris.mp4",
+    "poster": "https://raw.githubusercontent.com/szeproka/hyperframes-registry/main/previews/transition-circle-iris.jpg"
+  }
+}

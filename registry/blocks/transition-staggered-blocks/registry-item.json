@@ -1,0 +1,26 @@
+{
+  "$schema": "https://hyperframes.heygen.com/schema/registry-item.json",
+  "name": "transition-staggered-blocks",
+  "type": "hyperframes:block",
+  "title": "Staggered Blocks",
+  "description": "Staggered Blocks transition between two scenes",
+  "tags": [
+    "transition"
+  ],
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "duration": 5,
+  "files": [
+    {
+      "path": "transition-staggered-blocks.html",
+      "target": "compositions/transition-staggered-blocks.html",
+      "type": "hyperframes:composition"
+    }
+  ],
+  "preview": {
+    "video": "https://raw.githubusercontent.com/szeproka/hyperframes-registry/main/previews/transition-staggered-blocks.mp4",
+    "poster": "https://raw.githubusercontent.com/szeproka/hyperframes-registry/main/previews/transition-staggered-blocks.jpg"
+  }
+}

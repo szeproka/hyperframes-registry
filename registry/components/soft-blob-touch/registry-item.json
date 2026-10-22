@@ -10,7 +10,8 @@
     "material",
     "blob",
     "touch",
-    "grain"
+    "grain",
+    "hf-tab:elements"
   ],
   "jobs": [
     "demonstrate"

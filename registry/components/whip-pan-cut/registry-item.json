@@ -11,7 +11,8 @@
     "velocity-match",
     "speed-ramp",
     "bridge",
-    "slots"
+    "slots",
+    "hf-tab:transitions"
   ],
   "jobs": [
     "bridge"

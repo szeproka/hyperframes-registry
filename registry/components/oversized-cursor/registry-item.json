@@ -10,7 +10,8 @@
     "actor",
     "pointer",
     "interaction",
-    "effect"
+    "effect",
+    "hf-tab:callouts"
   ],
   "files": [
     {

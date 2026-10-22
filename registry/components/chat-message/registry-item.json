@@ -9,7 +9,8 @@
     "chat",
     "mock-ui",
     "message",
-    "social"
+    "social",
+    "hf-tab:social"
   ],
   "author": "Miao Yang",
   "variables": [

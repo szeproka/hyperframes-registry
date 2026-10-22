@@ -11,7 +11,8 @@
     "shared-element",
     "modal",
     "deterministic",
-    "experiment"
+    "experiment",
+    "hf-tab:elements"
   ],
   "jobs": [
     "demonstrate"

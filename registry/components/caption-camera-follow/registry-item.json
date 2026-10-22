@@ -10,7 +10,8 @@
     "camera",
     "typography",
     "motion-primitive",
-    "portrait"
+    "portrait",
+    "hf-tab:captions"
   ],
   "files": [
     {

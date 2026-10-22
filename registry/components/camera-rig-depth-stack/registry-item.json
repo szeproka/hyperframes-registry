@@ -6,7 +6,8 @@
   "description": "A 3D camera-rig-style card stack with depth, parallax, and focus shift.",
   "tags": [
     "advanced-motion",
-    "hyperframes-native"
+    "hyperframes-native",
+    "hf-tab:3d"
   ],
   "files": [
     {

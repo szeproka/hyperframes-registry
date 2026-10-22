@@ -8,7 +8,8 @@
     "diagram",
     "flowchart",
     "interactive",
-    "data"
+    "data",
+    "hf-tab:data"
   ],
   "dimensions": {
     "width": 1920,

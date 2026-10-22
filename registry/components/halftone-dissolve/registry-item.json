@@ -9,7 +9,8 @@
     "transition",
     "texture",
     "halftone",
-    "dissolve"
+    "dissolve",
+    "hf-tab:transitions"
   ],
   "jobs": [
     "bridge"

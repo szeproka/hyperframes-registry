@@ -11,7 +11,8 @@
     "logo",
     "text",
     "extruded",
-    "title-card"
+    "title-card",
+    "hf-tab:3d"
   ],
   "dimensions": {
     "width": 1920,

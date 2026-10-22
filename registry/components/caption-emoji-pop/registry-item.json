@@ -8,7 +8,8 @@
     "captions",
     "caption-style",
     "emoji",
-    "social"
+    "social",
+    "hf-tab:captions"
   ],
   "files": [
     {

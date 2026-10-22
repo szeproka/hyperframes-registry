@@ -10,7 +10,8 @@
     "kinetic-type",
     "axis",
     "emphasize",
-    "text-effect"
+    "text-effect",
+    "hf-tab:text"
   ],
   "jobs": [
     "emphasize"

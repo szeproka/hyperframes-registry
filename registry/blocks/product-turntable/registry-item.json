@@ -11,7 +11,8 @@
     "product",
     "turntable",
     "glb",
-    "loop"
+    "loop",
+    "hf-tab:3d"
   ],
   "dimensions": {
     "width": 1920,

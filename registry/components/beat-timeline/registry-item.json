@@ -9,7 +9,8 @@
     "transitions",
     "sequencing",
     "bridge",
-    "timeline"
+    "timeline",
+    "hf-tab:scenes"
   ],
   "jobs": [
     "bridge"

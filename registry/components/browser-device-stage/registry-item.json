@@ -11,7 +11,8 @@
     "browser",
     "phone",
     "slot",
-    "chrome"
+    "chrome",
+    "hf-tab:mockups"
   ],
   "jobs": [
     "demonstrate"

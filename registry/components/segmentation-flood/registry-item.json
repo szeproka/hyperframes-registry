@@ -12,7 +12,8 @@
     "canvas",
     "deterministic",
     "experiment",
-    "shader"
+    "shader",
+    "hf-tab:mockups"
   ],
   "jobs": [
     "demonstrate"

@@ -11,7 +11,8 @@
     "press",
     "ripple",
     "payoff",
-    "effect"
+    "effect",
+    "hf-tab:callouts"
   ],
   "jobs": [
     "demonstrate"

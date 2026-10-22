@@ -9,7 +9,8 @@
     "zoom",
     "parallax",
     "grid",
-    "hero"
+    "hero",
+    "hf-tab:transitions"
   ],
   "files": [
     {

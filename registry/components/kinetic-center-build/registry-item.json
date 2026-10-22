@@ -10,7 +10,8 @@
     "kinetic-type",
     "reveal",
     "remocn-port",
-    "text-effect"
+    "text-effect",
+    "hf-tab:text"
   ],
   "jobs": [
     "reveal"

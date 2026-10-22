@@ -9,7 +9,8 @@
     "product-demo",
     "path",
     "traveler",
-    "auto-rotate"
+    "auto-rotate",
+    "hf-tab:elements"
   ],
   "jobs": [
     "demonstrate"

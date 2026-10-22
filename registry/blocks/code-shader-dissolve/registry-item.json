@@ -14,7 +14,8 @@
     "code-animation",
     "shader",
     "webgl",
-    "developer"
+    "developer",
+    "hf-tab:code"
   ],
   "files": [
     {

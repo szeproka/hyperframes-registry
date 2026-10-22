@@ -5,7 +5,8 @@
   "title": "Spotlight Card",
   "description": "A card with a scripted cursor spotlight and lit border.",
   "tags": [
-    "effect"
+    "effect",
+    "hf-tab:elements"
   ],
   "files": [
     {

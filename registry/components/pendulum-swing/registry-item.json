@@ -9,7 +9,8 @@
     "physics",
     "swing",
     "settle",
-    "reveal"
+    "reveal",
+    "hf-tab:elements"
   ],
   "files": [
     {

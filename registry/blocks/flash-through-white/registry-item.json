@@ -6,7 +6,8 @@
   "description": "Shader transition with white flash crossfade",
   "tags": [
     "transition",
-    "shader"
+    "shader",
+    "hf-tab:transitions"
   ],
   "dimensions": {
     "width": 1920,

@@ -10,7 +10,8 @@
     "geography",
     "usa",
     "hexgrid",
-    "tilegrid"
+    "tilegrid",
+    "hf-tab:data"
   ],
   "dimensions": {
     "width": 1920,

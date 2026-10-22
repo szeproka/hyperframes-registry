@@ -9,7 +9,8 @@
     "transition",
     "fade",
     "crossfade",
-    "scene"
+    "scene",
+    "hf-tab:transitions"
   ],
   "files": [
     {

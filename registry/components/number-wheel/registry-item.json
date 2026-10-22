@@ -9,7 +9,8 @@
     "motion-primitive",
     "number",
     "counter",
-    "data"
+    "data",
+    "hf-tab:data"
   ],
   "files": [
     {

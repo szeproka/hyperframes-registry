@@ -9,7 +9,8 @@
     "text",
     "highlight",
     "caption",
-    "text-effect"
+    "text-effect",
+    "hf-tab:text"
   ],
   "files": [
     {

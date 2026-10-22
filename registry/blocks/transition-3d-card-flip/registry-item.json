@@ -5,7 +5,8 @@
   "title": "3D Card Flip",
   "description": "3D Card Flip transition between two scenes",
   "tags": [
-    "transition"
+    "transition",
+    "hf-tab:transitions"
   ],
   "dimensions": {
     "width": 1920,

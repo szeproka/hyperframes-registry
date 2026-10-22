@@ -12,7 +12,8 @@
     "shards",
     "fog",
     "hdr",
-    "shader"
+    "shader",
+    "hf-tab:3d"
   ],
   "dimensions": {
     "width": 1920,

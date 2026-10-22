@@ -10,7 +10,8 @@
     "hub",
     "nodes",
     "connector",
-    "reveal"
+    "reveal",
+    "hf-tab:data"
   ],
   "jobs": [
     "exhibit"

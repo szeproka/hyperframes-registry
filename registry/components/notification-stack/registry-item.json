@@ -10,7 +10,8 @@
     "notification",
     "stack",
     "stagger",
-    "social"
+    "social",
+    "hf-tab:social"
   ],
   "jobs": [
     "demonstrate"

@@ -9,7 +9,8 @@
     "transition",
     "match-cut",
     "hard-cut",
-    "continuity"
+    "continuity",
+    "hf-tab:transitions"
   ],
   "jobs": [
     "connect"

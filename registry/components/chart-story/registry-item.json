@@ -13,7 +13,8 @@
     "line",
     "donut",
     "progress",
-    "deterministic"
+    "deterministic",
+    "hf-tab:data"
   ],
   "jobs": [
     "prove"

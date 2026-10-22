@@ -8,7 +8,8 @@
     "video-primitive",
     "text-effect",
     "ai",
-    "chat"
+    "chat",
+    "hf-tab:text"
   ],
   "author": "Miao Yang",
   "variables": [

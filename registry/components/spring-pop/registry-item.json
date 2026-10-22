@@ -11,7 +11,8 @@
     "overshoot",
     "pop",
     "reveal",
-    "effect"
+    "effect",
+    "hf-tab:elements"
   ],
   "jobs": [
     "reveal"

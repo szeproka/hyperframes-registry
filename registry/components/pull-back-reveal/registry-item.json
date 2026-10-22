@@ -10,7 +10,8 @@
     "pull-back",
     "reveal",
     "recontextualize",
-    "effect"
+    "effect",
+    "hf-tab:3d"
   ],
   "jobs": [
     "reveal"

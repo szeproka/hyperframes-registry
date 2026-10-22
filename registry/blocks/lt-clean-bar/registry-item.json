@@ -8,7 +8,8 @@
     "lower-third",
     "overlay",
     "podcast",
-    "interview"
+    "interview",
+    "hf-tab:callouts"
   ],
   "dimensions": {
     "width": 1920,

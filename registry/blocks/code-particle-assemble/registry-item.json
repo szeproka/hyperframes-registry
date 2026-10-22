@@ -15,7 +15,8 @@
     "particles",
     "gpu",
     "webgl",
-    "developer"
+    "developer",
+    "hf-tab:code"
   ],
   "files": [
     {

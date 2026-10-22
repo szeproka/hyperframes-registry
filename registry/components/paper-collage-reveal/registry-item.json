@@ -10,7 +10,8 @@
     "torn paper",
     "reveal",
     "transition",
-    "motion-primitive"
+    "motion-primitive",
+    "hf-tab:transitions"
   ],
   "files": [
     {

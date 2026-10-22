@@ -12,7 +12,8 @@
     "reshape",
     "holdable",
     "slots",
-    "element-transition"
+    "element-transition",
+    "hf-tab:elements"
   ],
   "jobs": [
     "bridge"

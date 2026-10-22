@@ -10,7 +10,8 @@
     "type",
     "variable-font",
     "deterministic",
-    "text-effect"
+    "text-effect",
+    "hf-tab:text"
   ],
   "jobs": [
     "emphasize"

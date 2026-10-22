@@ -12,7 +12,8 @@
     "pan",
     "slot",
     "servo",
-    "effect"
+    "effect",
+    "hf-tab:mockups"
   ],
   "jobs": [
     "demonstrate"

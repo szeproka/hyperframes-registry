@@ -11,7 +11,8 @@
     "reveal",
     "canvas",
     "deterministic",
-    "shader"
+    "shader",
+    "hf-tab:looks"
   ],
   "jobs": [
     "reveal"

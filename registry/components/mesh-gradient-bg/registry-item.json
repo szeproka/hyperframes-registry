@@ -5,7 +5,8 @@
   "title": "Mesh Gradient Background",
   "description": "A render-safe mesh gradient using animated radial layers.",
   "tags": [
-    "effect"
+    "effect",
+    "hf-tab:backgrounds"
   ],
   "files": [
     {

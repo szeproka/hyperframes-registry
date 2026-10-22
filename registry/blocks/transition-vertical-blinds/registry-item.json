@@ -5,7 +5,8 @@
   "title": "Vertical Blinds",
   "description": "Vertical Blinds transition between two scenes",
   "tags": [
-    "transition"
+    "transition",
+    "hf-tab:transitions"
   ],
   "dimensions": {
     "width": 1920,

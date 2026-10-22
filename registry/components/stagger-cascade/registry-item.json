@@ -10,7 +10,8 @@
     "stagger",
     "entrance",
     "exhibit",
-    "effect"
+    "effect",
+    "hf-tab:elements"
   ],
   "jobs": [
     "exhibit"

@@ -12,7 +12,8 @@
     "depth-of-field",
     "two-headlines",
     "sweep",
-    "shader"
+    "shader",
+    "hf-tab:3d"
   ],
   "dimensions": {
     "width": 1920,

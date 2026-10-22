@@ -9,7 +9,8 @@
     "text",
     "reveal",
     "blur",
-    "text-effect"
+    "text-effect",
+    "hf-tab:text"
   ],
   "files": [
     {

@@ -10,7 +10,8 @@
     "annotation",
     "marker",
     "deterministic",
-    "text-effect"
+    "text-effect",
+    "hf-tab:text"
   ],
   "jobs": [
     "emphasize"

@@ -16,7 +16,8 @@
     "background",
     "showcase",
     "depth",
-    "loop"
+    "loop",
+    "hf-tab:backgrounds"
   ],
   "variables": [
     {

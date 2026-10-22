@@ -11,7 +11,8 @@
     "dots",
     "texture",
     "ambient",
-    "loopable"
+    "loopable",
+    "hf-tab:backgrounds"
   ],
   "jobs": [
     "orient"

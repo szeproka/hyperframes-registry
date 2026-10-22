@@ -17,7 +17,8 @@
     "solari",
     "departure-board",
     "reveal",
-    "text-effect"
+    "text-effect",
+    "hf-tab:text"
   ],
   "variables": [
     {

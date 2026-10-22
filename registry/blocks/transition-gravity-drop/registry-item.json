@@ -5,7 +5,8 @@
   "title": "Gravity Drop",
   "description": "Gravity Drop transition between two scenes",
   "tags": [
-    "transition"
+    "transition",
+    "hf-tab:transitions"
   ],
   "dimensions": {
     "width": 1920,

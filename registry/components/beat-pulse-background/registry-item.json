@@ -11,7 +11,8 @@
     "pulse",
     "rhythmic",
     "reactive",
-    "effect"
+    "effect",
+    "hf-tab:backgrounds"
   ],
   "jobs": [
     "emphasize"

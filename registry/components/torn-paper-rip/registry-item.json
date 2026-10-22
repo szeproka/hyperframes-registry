@@ -10,7 +10,8 @@
     "paper tear",
     "transition",
     "texture",
-    "motion-primitive"
+    "motion-primitive",
+    "hf-tab:transitions"
   ],
   "files": [
     {

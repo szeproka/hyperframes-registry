@@ -10,7 +10,8 @@
     "match-cut",
     "hard-cut",
     "continuity",
-    "text-effect"
+    "text-effect",
+    "hf-tab:text"
   ],
   "jobs": [
     "connect"

@@ -10,7 +10,8 @@
     "momentum",
     "toss",
     "drop",
-    "slide"
+    "slide",
+    "hf-tab:elements"
   ],
   "jobs": [
     "exit"

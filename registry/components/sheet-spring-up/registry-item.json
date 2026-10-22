@@ -9,7 +9,8 @@
     "sheet",
     "spring",
     "mock-ui",
-    "overlay"
+    "overlay",
+    "hf-tab:elements"
   ],
   "author": "Miao Yang",
   "variables": [

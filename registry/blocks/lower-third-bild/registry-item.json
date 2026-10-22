@@ -13,7 +13,8 @@
     "broadcast",
     "lower-third",
     "news",
-    "overlay"
+    "overlay",
+    "hf-tab:callouts"
   ],
   "variables": [
     {

@@ -8,7 +8,8 @@
     "video-primitive",
     "three-js",
     "webgl",
-    "hyperframes-native"
+    "hyperframes-native",
+    "hf-tab:3d"
   ],
   "files": [
     {

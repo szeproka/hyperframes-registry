@@ -11,7 +11,8 @@
     "list",
     "stagger",
     "assemble",
-    "feature-tour"
+    "feature-tour",
+    "hf-tab:elements"
   ],
   "jobs": [
     "reveal",

@@ -15,7 +15,8 @@
     "title",
     "variable-font",
     "text",
-    "text-effect"
+    "text-effect",
+    "hf-tab:text"
   ],
   "license": "OFL-1.1",
   "variables": [

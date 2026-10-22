@@ -10,7 +10,8 @@
     "scramble",
     "reveal",
     "deterministic",
-    "text-effect"
+    "text-effect",
+    "hf-tab:text"
   ],
   "jobs": [
     "reveal"

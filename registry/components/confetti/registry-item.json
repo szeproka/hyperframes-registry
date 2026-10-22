@@ -5,7 +5,8 @@
   "title": "Confetti",
   "description": "A deterministic celebration burst with seeded particles and gravity.",
   "tags": [
-    "effect"
+    "effect",
+    "hf-tab:looks"
   ],
   "files": [
     {

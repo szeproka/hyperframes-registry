@@ -16,7 +16,8 @@
     "camera",
     "depth",
     "cinematic",
-    "showcase"
+    "showcase",
+    "hf-tab:3d"
   ],
   "variables": [
     {

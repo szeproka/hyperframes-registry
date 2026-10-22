@@ -11,7 +11,8 @@
     "focus",
     "emphasize",
     "holdable",
-    "effect"
+    "effect",
+    "hf-tab:3d"
   ],
   "jobs": [
     "emphasize"

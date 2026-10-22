@@ -10,7 +10,8 @@
     "transitions-dev-port",
     "text",
     "stagger",
-    "text-effect"
+    "text-effect",
+    "hf-tab:text"
   ],
   "files": [
     {

@@ -15,7 +15,8 @@
     "liquid",
     "webgl",
     "displacement",
-    "background"
+    "background",
+    "hf-tab:backgrounds"
   ],
   "files": [
     {

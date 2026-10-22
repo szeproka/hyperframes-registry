@@ -10,7 +10,8 @@
     "geography",
     "usa",
     "bubble",
-    "cities"
+    "cities",
+    "hf-tab:data"
   ],
   "dimensions": {
     "width": 1920,

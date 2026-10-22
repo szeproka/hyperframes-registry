@@ -12,7 +12,8 @@
     "depth",
     "parallax",
     "emphasize",
-    "effect"
+    "effect",
+    "hf-tab:3d"
   ],
   "jobs": [
     "emphasize"

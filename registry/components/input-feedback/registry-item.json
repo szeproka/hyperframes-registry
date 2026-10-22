@@ -10,7 +10,8 @@
     "input",
     "feedback",
     "transition",
-    "element-transition"
+    "element-transition",
+    "hf-tab:elements"
   ],
   "files": [
     {

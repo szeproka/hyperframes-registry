@@ -10,7 +10,8 @@
     "typing",
     "prompt",
     "deterministic",
-    "text-effect"
+    "text-effect",
+    "hf-tab:text"
   ],
   "jobs": [
     "demonstrate"

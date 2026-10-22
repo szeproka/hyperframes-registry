@@ -12,7 +12,8 @@
     "svg-filter",
     "deterministic",
     "experiment",
-    "shader"
+    "shader",
+    "hf-tab:looks"
   ],
   "jobs": [
     "reveal"

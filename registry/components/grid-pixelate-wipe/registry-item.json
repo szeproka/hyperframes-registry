@@ -8,7 +8,8 @@
     "transition",
     "wipe",
     "grid",
-    "pixelate"
+    "pixelate",
+    "hf-tab:transitions"
   ],
   "files": [
     {

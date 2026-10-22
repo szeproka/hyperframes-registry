@@ -10,7 +10,8 @@
     "morph",
     "low-poly",
     "svg",
-    "deterministic"
+    "deterministic",
+    "hf-tab:scenes"
   ],
   "jobs": [
     "reveal"

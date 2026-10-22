@@ -9,7 +9,8 @@
     "handwritten",
     "checklist",
     "paper",
-    "marker"
+    "marker",
+    "hf-tab:text"
   ],
   "author": "Miao Yang",
   "variables": [

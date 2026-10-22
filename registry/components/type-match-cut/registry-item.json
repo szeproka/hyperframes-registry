@@ -9,7 +9,8 @@
     "transition",
     "typography",
     "match-cut",
-    "continuity"
+    "continuity",
+    "hf-tab:transitions"
   ],
   "jobs": [
     "bridge"

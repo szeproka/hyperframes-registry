@@ -15,7 +15,8 @@
     "shader",
     "background",
     "texture",
-    "halftone"
+    "halftone",
+    "hf-tab:backgrounds"
   ],
   "variables": [
     {

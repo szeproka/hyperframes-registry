@@ -10,7 +10,8 @@
     "device",
     "phone",
     "parallax",
-    "transition"
+    "transition",
+    "hf-tab:transitions"
   ],
   "jobs": [
     "transition"

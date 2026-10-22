@@ -11,7 +11,8 @@
     "feed",
     "loop",
     "agitation",
-    "effect"
+    "effect",
+    "hf-tab:social"
   ],
   "jobs": [
     "demonstrate"

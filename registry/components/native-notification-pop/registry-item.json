@@ -9,7 +9,8 @@
     "product-demo",
     "overlay",
     "notification",
-    "spring"
+    "spring",
+    "hf-tab:social"
   ],
   "jobs": [
     "demonstrate"

@@ -11,7 +11,8 @@
     "usa",
     "flow",
     "connections",
-    "arcs"
+    "arcs",
+    "hf-tab:data"
   ],
   "dimensions": {
     "width": 1920,

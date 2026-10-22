@@ -10,7 +10,8 @@
     "icon",
     "morph",
     "state-change",
-    "completion"
+    "completion",
+    "hf-tab:elements"
   ],
   "jobs": [
     "demonstrate"

@@ -7,7 +7,8 @@
   "tags": [
     "social",
     "conversation",
-    "messages"
+    "messages",
+    "hf-tab:social"
   ],
   "dimensions": {
     "width": 1920,

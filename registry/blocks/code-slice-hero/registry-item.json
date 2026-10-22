@@ -12,7 +12,8 @@
     "webgl2",
     "shadows",
     "two-headlines",
-    "text-effect"
+    "text-effect",
+    "hf-tab:text"
   ],
   "dimensions": {
     "width": 1920,

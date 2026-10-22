@@ -11,7 +11,8 @@
     "click",
     "motion-blur",
     "depth",
-    "effect"
+    "effect",
+    "hf-tab:callouts"
   ],
   "files": [
     {

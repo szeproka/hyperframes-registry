@@ -6,7 +6,8 @@
   "description": "A social follow card with avatar, handle, and follower motion.",
   "tags": [
     "social-overlay",
-    "social"
+    "social",
+    "hf-tab:social"
   ],
   "files": [
     {

@@ -11,7 +11,8 @@
     "gesture",
     "touch",
     "pointer",
-    "effect"
+    "effect",
+    "hf-tab:callouts"
   ],
   "variables": [
     {

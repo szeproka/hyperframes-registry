@@ -6,7 +6,8 @@
   "description": "Focus Pull transition between two scenes",
   "tags": [
     "transition",
-    "crossfade"
+    "crossfade",
+    "hf-tab:transitions"
   ],
   "dimensions": {
     "width": 1920,

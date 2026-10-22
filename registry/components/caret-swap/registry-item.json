@@ -11,7 +11,8 @@
     "swap",
     "typewriter",
     "remocn-port",
-    "text-effect"
+    "text-effect",
+    "hf-tab:text"
   ],
   "jobs": [
     "emphasize"

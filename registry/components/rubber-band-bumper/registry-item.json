@@ -9,7 +9,8 @@
     "transition",
     "rubber-band",
     "resistance",
-    "overshoot"
+    "overshoot",
+    "hf-tab:transitions"
   ],
   "jobs": [
     "bridge"

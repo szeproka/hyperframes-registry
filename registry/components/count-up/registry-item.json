@@ -12,7 +12,8 @@
     "number",
     "countdown",
     "deterministic",
-    "data"
+    "data",
+    "hf-tab:data"
   ],
   "jobs": [
     "prove"

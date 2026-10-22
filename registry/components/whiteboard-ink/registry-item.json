@@ -11,7 +11,8 @@
     "svg",
     "whiteboard",
     "line-draw",
-    "slot"
+    "slot",
+    "hf-tab:scenes"
   ],
   "jobs": [
     "reveal"

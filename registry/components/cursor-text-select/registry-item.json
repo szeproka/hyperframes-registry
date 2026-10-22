@@ -11,7 +11,8 @@
     "selection",
     "editor",
     "toolbar",
-    "effect"
+    "effect",
+    "hf-tab:callouts"
   ],
   "files": [
     {

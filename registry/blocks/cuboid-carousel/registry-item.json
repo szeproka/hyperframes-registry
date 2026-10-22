@@ -12,7 +12,8 @@
     "pbr",
     "shadows",
     "room-environment",
-    "shader"
+    "shader",
+    "hf-tab:mockups"
   ],
   "dimensions": {
     "width": 1920,

@@ -11,7 +11,8 @@
     "light",
     "lines",
     "ribbons",
-    "shader"
+    "shader",
+    "hf-tab:backgrounds"
   ],
   "license": "Apache-2.0 AND MIT",
   "dimensions": {

@@ -10,7 +10,8 @@
     "stars",
     "fractional",
     "fill",
-    "prove"
+    "prove",
+    "hf-tab:data"
   ],
   "jobs": [
     "prove"

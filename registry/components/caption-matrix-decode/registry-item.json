@@ -9,7 +9,8 @@
     "caption-style",
     "matrix",
     "scramble",
-    "decode"
+    "decode",
+    "hf-tab:captions"
   ],
   "files": [
     {

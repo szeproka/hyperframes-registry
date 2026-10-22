@@ -9,7 +9,8 @@
     "flowchart",
     "interactive",
     "portrait",
-    "data"
+    "data",
+    "hf-tab:data"
   ],
   "dimensions": {
     "width": 1440,

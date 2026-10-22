@@ -10,7 +10,8 @@
     "reveal",
     "svg",
     "stroke",
-    "line-draw"
+    "line-draw",
+    "hf-tab:scenes"
   ],
   "jobs": [
     "reveal"

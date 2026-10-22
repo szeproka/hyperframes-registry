@@ -10,7 +10,8 @@
     "terminal",
     "typing",
     "deterministic",
-    "code-animation"
+    "code-animation",
+    "hf-tab:code"
   ],
   "jobs": [
     "demonstrate"

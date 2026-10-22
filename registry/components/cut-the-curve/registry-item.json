@@ -10,7 +10,8 @@
     "velocity-match",
     "whip",
     "bridge",
-    "demonstrate"
+    "demonstrate",
+    "hf-tab:transitions"
   ],
   "jobs": [
     "bridge",

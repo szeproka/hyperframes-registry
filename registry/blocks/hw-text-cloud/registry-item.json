@@ -7,7 +7,8 @@
   "tags": [
     "handwritten",
     "speech-bubble",
-    "overlay"
+    "overlay",
+    "hf-tab:callouts"
   ],
   "dimensions": {
     "width": 1920,

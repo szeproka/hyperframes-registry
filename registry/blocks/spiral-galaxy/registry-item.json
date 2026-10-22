@@ -15,7 +15,8 @@
     "space",
     "particles",
     "webgl",
-    "background"
+    "background",
+    "hf-tab:backgrounds"
   ],
   "variables": [
     {

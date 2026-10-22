@@ -5,7 +5,8 @@
   "title": "Glitch Distortion",
   "description": "Glitch Distortion transition between two scenes",
   "tags": [
-    "transition"
+    "transition",
+    "hf-tab:transitions"
   ],
   "dimensions": {
     "width": 1920,

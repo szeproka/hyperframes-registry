@@ -15,7 +15,8 @@
     "ambient",
     "particles",
     "media-treatment-overlay",
-    "loopable"
+    "loopable",
+    "hf-tab:looks"
   ],
   "dimensions": {
     "width": 1920,

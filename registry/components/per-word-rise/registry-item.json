@@ -10,7 +10,8 @@
     "typography",
     "stagger",
     "reveal",
-    "text-effect"
+    "text-effect",
+    "hf-tab:text"
   ],
   "jobs": [
     "reveal"

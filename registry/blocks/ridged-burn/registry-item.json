@@ -6,7 +6,8 @@
   "description": "Shader transition with ridged turbulence burn effect",
   "tags": [
     "transition",
-    "shader"
+    "shader",
+    "hf-tab:transitions"
   ],
   "dimensions": {
     "width": 1920,

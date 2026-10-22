@@ -15,7 +15,8 @@
     "html-in-canvas",
     "shader",
     "webgl",
-    "effect"
+    "effect",
+    "hf-tab:looks"
   ],
   "files": [
     {

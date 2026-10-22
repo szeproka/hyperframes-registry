@@ -10,7 +10,8 @@
     "kinetic-type",
     "word-swap",
     "reveal",
-    "text-effect"
+    "text-effect",
+    "hf-tab:text"
   ],
   "jobs": [
     "reveal"

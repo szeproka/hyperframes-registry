@@ -19,6 +19,7 @@ from concurrent.futures import ThreadPoolExecutor
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import split_transitions  # noqa: E402
+import catalog_classes  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 REG = os.path.join(ROOT, "registry")
@@ -240,36 +241,22 @@ def with_studio_tags(tags):
     return out
 
 
-# Upstream tags every state change "transition". The Catalog's Transitions tab keeps the cuts
-# between shots; interface elements changing state go to the fork's Elements tab, text
-# animations to Text Effects (owner's call, 2026-10-22).
-ELEMENT_ITEMS = {
-    "avatar-group-hover", "badge-pop", "card-resize", "icon-swap", "input-feedback", "menu-morph",
-    "micro-transitions", "morph-swap", "number-pop-in", "page-slide", "panel-reveal",
-    "skeleton-reveal", "success-check", "tabs-slide-indicator", "tilt-card",
-}
-TEXT_ITEMS = {"text-stagger", "text-state-swap", "text-match-cut", "code-slice-hero"}
-
-
-def apply_classes():
-    """Moves element and text animations out of the Transitions tab; returns how many moved."""
-    moved = 0
+def apply_tabs():
+    """Files every item under exactly one Catalog tab (tools/catalog_classes.py); returns how many changed."""
+    changed = 0
     for type_dir in ("blocks", "components"):
-        for name in sorted(ELEMENT_ITEMS | TEXT_ITEMS):
+        for name in os.listdir(os.path.join(REG, type_dir)):
             path = os.path.join(REG, type_dir, name, "registry-item.json")
             if not os.path.exists(path):
                 continue
             item = json.load(open(path))
-            tags = list(item.get("tags") or [])
-            if name in ELEMENT_ITEMS and "element-transition" not in tags:
-                tags.append("element-transition")
-            if name in TEXT_ITEMS:
-                tags = [t for t in tags if t != "transition"] + ([] if "text-effect" in tags else ["text-effect"])
+            tags = [t for t in item.get("tags") or [] if not t.startswith("hf-tab:")]
+            tags.append("hf-tab:" + catalog_classes.tab_for(name, tags))
             if tags != item.get("tags"):
                 item["tags"] = tags
                 write_json(path, item)
-                moved += 1
-    return moved
+                changed += 1
+    return changed
 
 
 def apply_studio_tags():
@@ -506,7 +493,7 @@ def main():
     for name, fn in PATCHES:
         log(f"    {name}: {fn()}")
     log(f"    transitions split: {len(split_transitions.split())} blocks, one per transition")
-    log(f"    classes: {apply_classes()} element or text animations moved out of Transitions")
+    log(f"    Catalog tabs: {apply_tabs()} items filed under their tab")
     log(f"    Studio tabs: {apply_studio_tags()} items given the tag their tab needs")
     log("3/4 Previews...")
     kept, from_video, rendered, failed = refresh_previews()

@@ -11,7 +11,8 @@
     "ascii",
     "trail",
     "grid",
-    "shader"
+    "shader",
+    "hf-tab:scenes"
   ],
   "jobs": [
     "reveal"

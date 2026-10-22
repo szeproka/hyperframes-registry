@@ -9,7 +9,8 @@
     "overlay",
     "podcast",
     "interview",
-    "bold"
+    "bold",
+    "hf-tab:callouts"
   ],
   "dimensions": {
     "width": 1920,

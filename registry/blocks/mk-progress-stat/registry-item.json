@@ -8,7 +8,8 @@
     "data-viz",
     "stat",
     "minimal",
-    "data"
+    "data",
+    "hf-tab:data"
   ],
   "dimensions": {
     "width": 1920,

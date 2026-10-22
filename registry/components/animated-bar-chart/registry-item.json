@@ -5,7 +5,8 @@
   "title": "Animated Bar Chart",
   "description": "A compact data card with deterministic bar growth and value callouts.",
   "tags": [
-    "data"
+    "data",
+    "hf-tab:data"
   ],
   "files": [
     {

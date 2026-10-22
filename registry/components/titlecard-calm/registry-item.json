@@ -10,7 +10,8 @@
     "title-card",
     "calm",
     "orient",
-    "text-effect"
+    "text-effect",
+    "hf-tab:text"
   ],
   "jobs": [
     "orient"

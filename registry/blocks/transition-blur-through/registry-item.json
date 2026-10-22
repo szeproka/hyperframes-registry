@@ -5,7 +5,8 @@
   "title": "Blur Through",
   "description": "Blur Through transition between two scenes",
   "tags": [
-    "transition"
+    "transition",
+    "hf-tab:transitions"
   ],
   "dimensions": {
     "width": 1920,

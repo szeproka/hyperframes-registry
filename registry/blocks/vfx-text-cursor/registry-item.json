@@ -15,7 +15,8 @@
     "text",
     "shader",
     "cursor",
-    "chromatic"
+    "chromatic",
+    "hf-tab:looks"
   ],
   "files": [
     {

@@ -7,7 +7,8 @@
   "tags": [
     "video-primitive",
     "transition-primitive",
-    "transition"
+    "transition",
+    "hf-tab:transitions"
   ],
   "files": [
     {

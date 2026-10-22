@@ -10,7 +10,8 @@
     "effect",
     "blend-mode",
     "contrast",
-    "inversion"
+    "inversion",
+    "hf-tab:text"
   ],
   "files": [
     {

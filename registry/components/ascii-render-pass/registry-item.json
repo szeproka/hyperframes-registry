@@ -10,7 +10,8 @@
     "texture",
     "ascii",
     "quantize",
-    "shader"
+    "shader",
+    "hf-tab:looks"
   ],
   "jobs": [
     "reveal"

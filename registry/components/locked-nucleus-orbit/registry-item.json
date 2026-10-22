@@ -10,7 +10,8 @@
     "reveal",
     "orbit",
     "lockup",
-    "deterministic"
+    "deterministic",
+    "hf-tab:scenes"
   ],
   "jobs": [
     "reveal"

@@ -10,7 +10,8 @@
     "attention",
     "beam",
     "path",
-    "spotlight"
+    "spotlight",
+    "hf-tab:callouts"
   ],
   "jobs": [
     "demonstrate"

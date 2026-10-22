@@ -16,7 +16,8 @@
     "showcase",
     "optical",
     "canvas",
-    "shader"
+    "shader",
+    "hf-tab:backgrounds"
   ],
   "variables": [
     {

@@ -10,7 +10,8 @@
     "background",
     "grid",
     "ui",
-    "effect"
+    "effect",
+    "hf-tab:backgrounds"
   ],
   "files": [
     {

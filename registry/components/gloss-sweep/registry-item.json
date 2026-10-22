@@ -10,7 +10,8 @@
     "gloss",
     "card",
     "badge",
-    "payoff"
+    "payoff",
+    "hf-tab:elements"
   ],
   "jobs": [
     "celebrate"

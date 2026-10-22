@@ -9,7 +9,8 @@
     "product-demo",
     "physics",
     "stack",
-    "interruptible-spring"
+    "interruptible-spring",
+    "hf-tab:elements"
   ],
   "jobs": [
     "demonstrate"

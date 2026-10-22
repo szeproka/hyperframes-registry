@@ -10,7 +10,8 @@
     "light",
     "sweep",
     "slots",
-    "deterministic"
+    "deterministic",
+    "hf-tab:looks"
   ],
   "jobs": [
     "texture"

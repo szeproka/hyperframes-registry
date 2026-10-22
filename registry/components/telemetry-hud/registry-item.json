@@ -10,7 +10,8 @@
     "hud",
     "telemetry",
     "deterministic",
-    "data"
+    "data",
+    "hf-tab:callouts"
   ],
   "jobs": [
     "demonstrate"

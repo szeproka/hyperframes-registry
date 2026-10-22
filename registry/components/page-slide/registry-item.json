@@ -11,7 +11,8 @@
     "page",
     "slide",
     "transition",
-    "element-transition"
+    "element-transition",
+    "hf-tab:elements"
   ],
   "files": [
     {

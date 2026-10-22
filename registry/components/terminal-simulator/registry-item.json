@@ -5,7 +5,8 @@
   "title": "Terminal Simulator",
   "description": "A terminal window types commands and streams log output.",
   "tags": [
-    "code-animation"
+    "code-animation",
+    "hf-tab:code"
   ],
   "files": [
     {

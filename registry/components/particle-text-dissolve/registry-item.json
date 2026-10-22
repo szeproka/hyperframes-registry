@@ -11,7 +11,8 @@
     "canvas",
     "deterministic",
     "experiment",
-    "text-effect"
+    "text-effect",
+    "hf-tab:text"
   ],
   "jobs": [
     "emphasize"

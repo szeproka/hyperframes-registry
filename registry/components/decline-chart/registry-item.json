@@ -10,7 +10,8 @@
     "chart",
     "decline",
     "metric",
-    "problem"
+    "problem",
+    "hf-tab:data"
   ],
   "jobs": [
     "agitate"

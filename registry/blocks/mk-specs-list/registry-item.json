@@ -9,7 +9,8 @@
     "list",
     "minimal",
     "professional",
-    "data"
+    "data",
+    "hf-tab:data"
   ],
   "dimensions": {
     "width": 1920,

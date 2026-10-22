@@ -10,7 +10,8 @@
     "circle-reveal",
     "clip-path",
     "bridge",
-    "slots"
+    "slots",
+    "hf-tab:transitions"
   ],
   "jobs": [
     "bridge",

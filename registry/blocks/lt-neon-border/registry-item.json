@@ -15,7 +15,8 @@
     "glow",
     "loop",
     "video-primitive",
-    "social"
+    "social",
+    "hf-tab:callouts"
   ],
   "variables": [
     {

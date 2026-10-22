@@ -6,7 +6,8 @@
   "description": "A transition that zooms through a focal card into the next scene.",
   "tags": [
     "transition-primitive",
-    "transition"
+    "transition",
+    "hf-tab:transitions"
   ],
   "variables": [
     {

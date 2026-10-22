@@ -15,7 +15,8 @@
     "shader",
     "background",
     "showcase",
-    "3d"
+    "3d",
+    "hf-tab:3d"
   ],
   "variables": [
     {

@@ -12,7 +12,8 @@
     "presence",
     "loop",
     "prove",
-    "effect"
+    "effect",
+    "hf-tab:callouts"
   ],
   "jobs": [
     "prove"

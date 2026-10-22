@@ -6,7 +6,8 @@
   "description": "A directional scene push that slides one panel over another.",
   "tags": [
     "transition-primitive",
-    "transition"
+    "transition",
+    "hf-tab:transitions"
   ],
   "variables": [
     {

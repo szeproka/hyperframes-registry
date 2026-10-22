@@ -10,7 +10,8 @@
     "focus",
     "blur",
     "attention",
-    "demonstrate"
+    "demonstrate",
+    "hf-tab:elements"
   ],
   "jobs": [
     "demonstrate"

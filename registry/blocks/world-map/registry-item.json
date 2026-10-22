@@ -9,7 +9,8 @@
     "map",
     "geography",
     "world",
-    "choropleth"
+    "choropleth",
+    "hf-tab:data"
   ],
   "dimensions": {
     "width": 1920,

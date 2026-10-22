@@ -8,7 +8,8 @@
     "data",
     "chart",
     "ranking",
-    "leaderboard"
+    "leaderboard",
+    "hf-tab:data"
   ],
   "dimensions": {
     "width": 1080,

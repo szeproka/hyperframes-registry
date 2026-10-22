@@ -12,7 +12,8 @@
     "sections",
     "slot",
     "servo",
-    "effect"
+    "effect",
+    "hf-tab:3d"
   ],
   "jobs": [
     "demonstrate"

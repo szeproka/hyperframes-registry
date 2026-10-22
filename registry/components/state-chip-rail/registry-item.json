@@ -10,7 +10,8 @@
     "state-machine",
     "status",
     "chips",
-    "rail"
+    "rail",
+    "hf-tab:elements"
   ],
   "jobs": [
     "demonstrate"

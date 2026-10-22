@@ -11,7 +11,8 @@
     "hud",
     "overlay",
     "creator",
-    "media-treatment-overlay"
+    "media-treatment-overlay",
+    "hf-tab:looks"
   ],
   "dimensions": {
     "width": 1920,

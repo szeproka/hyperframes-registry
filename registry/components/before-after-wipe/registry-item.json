@@ -13,7 +13,8 @@
     "holdable",
     "before-after",
     "wipe",
-    "slots"
+    "slots",
+    "hf-tab:mockups"
   ],
   "jobs": [
     "compare"

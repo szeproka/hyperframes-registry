@@ -12,7 +12,8 @@
     "orbit",
     "blender-motion",
     "sphere",
-    "shader"
+    "shader",
+    "hf-tab:3d"
   ],
   "dimensions": {
     "width": 1920,

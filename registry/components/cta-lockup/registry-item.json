@@ -10,7 +10,8 @@
     "cta",
     "end-card",
     "lockup",
-    "ask"
+    "ask",
+    "hf-tab:callouts"
   ],
   "jobs": [
     "ask"

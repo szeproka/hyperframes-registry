@@ -11,7 +11,8 @@
     "onion-skin",
     "ghosts",
     "deterministic",
-    "effect"
+    "effect",
+    "hf-tab:looks"
   ],
   "jobs": [
     "demonstrate"

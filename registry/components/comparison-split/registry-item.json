@@ -10,7 +10,8 @@
     "compare",
     "holdable",
     "before-after",
-    "wipe"
+    "wipe",
+    "hf-tab:mockups"
   ],
   "jobs": [
     "compare"

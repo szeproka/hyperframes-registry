@@ -11,7 +11,8 @@
     "heat",
     "thermal",
     "glow",
-    "shader"
+    "shader",
+    "hf-tab:3d"
   ],
   "license": "Apache-2.0 AND MIT",
   "dimensions": {

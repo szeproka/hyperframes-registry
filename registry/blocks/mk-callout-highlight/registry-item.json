@@ -8,7 +8,8 @@
     "typography",
     "karaoke",
     "captions",
-    "minimal"
+    "minimal",
+    "hf-tab:captions"
   ],
   "dimensions": {
     "width": 1920,

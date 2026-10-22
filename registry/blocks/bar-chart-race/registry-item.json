@@ -8,7 +8,8 @@
     "data",
     "chart",
     "statistics",
-    "ranking"
+    "ranking",
+    "hf-tab:data"
   ],
   "dimensions": {
     "width": 1920,

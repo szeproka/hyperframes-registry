@@ -11,7 +11,8 @@
     "drift",
     "hold",
     "loopable",
-    "effect"
+    "effect",
+    "hf-tab:3d"
   ],
   "jobs": [
     "orient"

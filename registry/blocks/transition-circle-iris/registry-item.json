@@ -5,7 +5,8 @@
   "title": "Circle Iris",
   "description": "Circle Iris transition between two scenes",
   "tags": [
-    "transition"
+    "transition",
+    "hf-tab:transitions"
   ],
   "dimensions": {
     "width": 1920,

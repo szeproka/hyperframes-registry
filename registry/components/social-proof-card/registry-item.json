@@ -10,7 +10,8 @@
     "end-card",
     "cta",
     "vertical",
-    "social"
+    "social",
+    "hf-tab:social"
   ],
   "author": "Miao Yang",
   "variables": [

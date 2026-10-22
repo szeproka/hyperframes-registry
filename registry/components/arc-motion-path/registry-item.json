@@ -8,7 +8,8 @@
     "video-primitive",
     "motionpath",
     "gsap-plugin",
-    "hyperframes-native"
+    "hyperframes-native",
+    "hf-tab:callouts"
   ],
   "files": [
     {

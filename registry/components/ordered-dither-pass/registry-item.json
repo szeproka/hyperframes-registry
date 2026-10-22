@@ -10,7 +10,8 @@
     "texture",
     "dither",
     "transition",
-    "quantize"
+    "quantize",
+    "hf-tab:looks"
   ],
   "jobs": [
     "reveal",

@@ -11,7 +11,8 @@
     "gradient",
     "ambient",
     "loopable",
-    "effect"
+    "effect",
+    "hf-tab:backgrounds"
   ],
   "jobs": [
     "orient"

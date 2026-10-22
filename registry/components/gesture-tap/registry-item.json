@@ -10,7 +10,8 @@
     "tap",
     "interaction",
     "ui-props",
-    "effect"
+    "effect",
+    "hf-tab:elements"
   ],
   "jobs": [
     "demonstrate"

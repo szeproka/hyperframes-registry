@@ -10,7 +10,8 @@
     "tabs",
     "indicator",
     "transition",
-    "element-transition"
+    "element-transition",
+    "hf-tab:elements"
   ],
   "files": [
     {

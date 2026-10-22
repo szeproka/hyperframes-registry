@@ -8,7 +8,8 @@
     "captions",
     "caption-style",
     "texture",
-    "mask"
+    "mask",
+    "hf-tab:captions"
   ],
   "variables": [
     {

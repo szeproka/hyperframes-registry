@@ -11,7 +11,8 @@
     "stepped",
     "boil",
     "deterministic",
-    "experiment"
+    "experiment",
+    "hf-tab:looks"
   ],
   "jobs": [
     "demonstrate"

@@ -12,7 +12,8 @@
     "tutorial",
     "steps",
     "deterministic",
-    "effect"
+    "effect",
+    "hf-tab:callouts"
   ],
   "jobs": [
     "demonstrate"

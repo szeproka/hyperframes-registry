@@ -9,7 +9,8 @@
     "text-effect",
     "effect",
     "texture",
-    "mask"
+    "mask",
+    "hf-tab:text"
   ],
   "textureGroups": [
     {

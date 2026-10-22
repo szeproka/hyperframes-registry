@@ -6,7 +6,8 @@
   "description": "Shader transition with concentric ripple wave distortion",
   "tags": [
     "transition",
-    "shader"
+    "shader",
+    "hf-tab:transitions"
   ],
   "dimensions": {
     "width": 1920,

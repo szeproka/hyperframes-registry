@@ -10,7 +10,8 @@
     "swap",
     "beat",
     "deterministic",
-    "text-effect"
+    "text-effect",
+    "hf-tab:text"
   ],
   "jobs": [
     "emphasize"

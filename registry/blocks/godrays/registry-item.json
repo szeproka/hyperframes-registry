@@ -10,7 +10,8 @@
     "background",
     "light",
     "rays",
-    "shader"
+    "shader",
+    "hf-tab:backgrounds"
   ],
   "license": "Apache-2.0 AND MIT",
   "dimensions": {

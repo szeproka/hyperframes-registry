@@ -10,7 +10,8 @@
     "radial",
     "ring",
     "surround",
-    "converge"
+    "converge",
+    "hf-tab:data"
   ],
   "jobs": [
     "agitate"

@@ -10,7 +10,8 @@
     "ring",
     "conic-gradient",
     "prove",
-    "demonstrate"
+    "demonstrate",
+    "hf-tab:data"
   ],
   "jobs": [
     "prove",

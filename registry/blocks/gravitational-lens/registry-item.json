@@ -23,7 +23,7 @@
     }
   ],
   "preview": {
-    "video": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/gravitational-lens.mp4",
-    "poster": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/gravitational-lens.png"
+    "video": "https://raw.githubusercontent.com/szeproka/hyperframes-registry/main/previews/gravitational-lens.mp4",
+    "poster": "https://raw.githubusercontent.com/szeproka/hyperframes-registry/main/previews/gravitational-lens.jpg"
   }
 }

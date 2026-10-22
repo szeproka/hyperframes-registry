@@ -23,7 +23,7 @@
     }
   ],
   "preview": {
-    "video": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/cross-warp-morph.mp4",
-    "poster": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/cross-warp-morph.png"
+    "video": "https://raw.githubusercontent.com/szeproka/hyperframes-registry/main/previews/cross-warp-morph.mp4",
+    "poster": "https://raw.githubusercontent.com/szeproka/hyperframes-registry/main/previews/cross-warp-morph.jpg"
   }
 }

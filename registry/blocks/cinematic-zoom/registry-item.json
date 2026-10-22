@@ -23,7 +23,7 @@
     }
   ],
   "preview": {
-    "video": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/cinematic-zoom.mp4",
-    "poster": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/cinematic-zoom.png"
+    "video": "https://raw.githubusercontent.com/szeproka/hyperframes-registry/main/previews/cinematic-zoom.mp4",
+    "poster": "https://raw.githubusercontent.com/szeproka/hyperframes-registry/main/previews/cinematic-zoom.jpg"
   }
 }

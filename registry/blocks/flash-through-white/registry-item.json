@@ -23,7 +23,7 @@
     }
   ],
   "preview": {
-    "video": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/flash-through-white.mp4",
-    "poster": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/flash-through-white.png"
+    "video": "https://raw.githubusercontent.com/szeproka/hyperframes-registry/main/previews/flash-through-white.mp4",
+    "poster": "https://raw.githubusercontent.com/szeproka/hyperframes-registry/main/previews/flash-through-white.jpg"
   }
 }

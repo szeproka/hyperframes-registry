@@ -18,6 +18,7 @@
       }
     </style>
   </head>
+  <!-- hf: full-frame shader transition -->
   <body>
     <div
       id="root"
@@ -53,7 +54,7 @@
           left: 0;
           top: 0;
           bottom: 0;
-          width: 1200px;
+          width: 1920px;
           display: flex;
           align-items: center;
           justify-content: center;
@@ -71,7 +72,7 @@
         }
         .bp-divider {
           position: absolute;
-          left: 1200px;
+          left: 1920px;
           top: 60px;
           bottom: 60px;
           width: 1px;
@@ -132,7 +133,7 @@
           position: absolute;
           top: 0;
           left: 0;
-          width: 1200px;
+          width: 1920px;
           height: 1080px;
           overflow: hidden;
           display: flex;
@@ -145,6 +146,12 @@
           letter-spacing: 0.06em;
           opacity: 0.12;
         }
+      
+        /* hf: full frame, no spec sheet */
+        .bp-grid, .bp-divider, .bp-number, .bp-right { display: none !important; }
+        .scene { flex-direction: column; gap: 4px; }
+        .scene .scene-label { font-family: "Bebas Neue", sans-serif; font-size: 220px; letter-spacing: 0.02em; opacity: 1; line-height: 1; }
+        .scene .scene-sub { font-family: "Bebas Neue", sans-serif; font-size: 40px; letter-spacing: 0.3em; color: #ffffff; opacity: 0.85; }
       </style>
 
       <div class="bp-grid"></div>
@@ -152,23 +159,25 @@
       <div class="bp-number">10 / 14</div>
 
       <!-- GL demo scenes (captured as textures, then hidden) -->
-      <div id="s1" class="scene" style="background: #073b4c">
-        <div class="scene-label" style="color: #06d6a0">SCENE A</div>
+      <div id="s1" class="scene" style="background: #1b263b">
+        <div class="scene-label" style="color: #2b3852">ONE</div>
+        <div class="scene-sub">SCENE A</div>
       </div>
-      <div id="s2" class="scene" style="background: #06d6a0; opacity: 0">
-        <div class="scene-label" style="color: #073b4c">SCENE B</div>
+      <div id="s2" class="scene" style="background: #e07a5f; opacity: 0">
+        <div class="scene-label" style="color: #e9957f">TWO</div>
+        <div class="scene-sub">SCENE B</div>
       </div>
 
       <!-- GL canvas (left panel only) -->
       <canvas
         id="gl-canvas"
-        width="1200"
+        width="1920"
         height="1080"
         style="
           position: absolute;
           top: 0;
           left: 0;
-          width: 1200px;
+          width: 1920px;
           height: 1080px;
           z-index: 10;
           pointer-events: none;
@@ -205,7 +214,7 @@
         console.warn("WebGL not available");
         window.__timelines["main"] = gsap.timeline({ paused: true });
       } else {
-        gl.viewport(0, 0, 1200, 1080);
+        gl.viewport(0, 0, 1920, 1080);
         gl.pixelStorei(gl.UNPACK_FLIP_Y_WEBGL, false);
         var sceneTextures = {};
 
@@ -217,11 +226,11 @@
           scene.style.zIndex = "999";
           scene.offsetHeight;
           var c = document.createElement("canvas");
-          c.width = 1200;
+          c.width = 1920;
           c.height = 1080;
           var ctx = c.getContext("2d");
           ctx.fillStyle = window.getComputedStyle(scene).backgroundColor;
-          ctx.fillRect(0, 0, 1200, 1080);
+          ctx.fillRect(0, 0, 1920, 1080);
           var sr = scene.getBoundingClientRect();
           var els = scene.querySelectorAll("*");
           for (var i = 0; i < els.length; i++) {
@@ -330,7 +339,7 @@
           gl.bindTexture(gl.TEXTURE_2D, texTo);
           gl.uniform1i(gl.getUniformLocation(prog, "u_to"), 1);
           gl.uniform1f(gl.getUniformLocation(prog, "u_progress"), progress);
-          gl.uniform2f(gl.getUniformLocation(prog, "u_resolution"), 1200, 1080);
+          gl.uniform2f(gl.getUniformLocation(prog, "u_resolution"), 1920, 1080);
           var pos = gl.getAttribLocation(prog, "a_pos");
           gl.bindBuffer(gl.ARRAY_BUFFER, quadBuf);
           gl.enableVertexAttribArray(pos);

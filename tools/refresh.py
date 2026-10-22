@@ -20,6 +20,7 @@ from concurrent.futures import ThreadPoolExecutor
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import split_transitions  # noqa: E402
 import catalog_classes  # noqa: E402
+import fullframe_shader_transitions  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 REG = os.path.join(ROOT, "registry")
@@ -411,7 +412,14 @@ def refresh_previews():
     os.makedirs(PREVIEWS, exist_ok=True)
     kept = from_video = rendered = failed = videos = 0
     todo = []
+    # Full-frame shader transitions: their previews were recorded in a browser
+    # (tools/browser_capture_server.py); the official ones still show the old spec-sheet layout.
+    own_previews = set(fullframe_shader_transitions.shader_transitions())
     for type_dir, name, path, it in items:
+        if name in own_previews and os.path.exists(os.path.join(PREVIEWS, name + ".mp4")):
+            it["preview"] = {"video": VIDEO_BASE + name + ".mp4", "poster": PREVIEW_BASE + name + ".jpg"}
+            write_json(path, it)
+            continue
         if name in NO_PREVIEW:
             it.pop("preview", None)
             write_json(path, it)
@@ -494,6 +502,7 @@ def main():
     for name, fn in PATCHES:
         log(f"    {name}: {fn()}")
     log(f"    transitions split: {len(split_transitions.split())} blocks, one per transition")
+    log(f"    shader transitions made full frame: {fullframe_shader_transitions.patch()}")
     log(f"    Catalog tabs: {apply_tabs()} items filed under their tab")
     log(f"    Studio tabs: {apply_studio_tags()} items given the tag their tab needs")
     log("3/4 Previews...")

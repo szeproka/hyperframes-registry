@@ -23,7 +23,7 @@
     }
   ],
   "preview": {
-    "video": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/whip-pan.mp4",
-    "poster": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/whip-pan.png"
+    "video": "https://raw.githubusercontent.com/szeproka/hyperframes-registry/main/previews/whip-pan.mp4",
+    "poster": "https://raw.githubusercontent.com/szeproka/hyperframes-registry/main/previews/whip-pan.jpg"
   }
 }

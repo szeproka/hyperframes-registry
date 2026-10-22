@@ -23,7 +23,7 @@
     }
   ],
   "preview": {
-    "video": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/ripple-waves.mp4",
-    "poster": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/ripple-waves.png"
+    "video": "https://raw.githubusercontent.com/szeproka/hyperframes-registry/main/previews/ripple-waves.mp4",
+    "poster": "https://raw.githubusercontent.com/szeproka/hyperframes-registry/main/previews/ripple-waves.jpg"
   }
 }

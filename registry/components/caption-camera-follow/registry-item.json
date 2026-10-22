@@ -11,7 +11,8 @@
     "typography",
     "motion-primitive",
     "portrait",
-    "hf-tab:captions"
+    "hf-tab:captions",
+    "hf-family:Caption styles"
   ],
   "files": [
     {

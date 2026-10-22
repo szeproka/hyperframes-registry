@@ -11,7 +11,8 @@
     "mock-ui",
     "vertical",
     "social",
-    "hf-tab:social"
+    "hf-tab:social",
+    "hf-family:Product demos"
   ],
   "author": "Miao Yang",
   "variables": [

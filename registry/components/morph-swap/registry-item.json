@@ -13,7 +13,8 @@
     "holdable",
     "slots",
     "element-transition",
-    "hf-tab:elements"
+    "hf-tab:elements",
+    "hf-family:Scene bridges (demo cards)"
   ],
   "jobs": [
     "bridge"

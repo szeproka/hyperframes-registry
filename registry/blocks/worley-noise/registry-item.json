@@ -13,7 +13,8 @@
     "cells",
     "monochrome",
     "shader",
-    "hf-tab:backgrounds"
+    "hf-tab:backgrounds",
+    "hf-family:Shaders library (WebGPU)"
   ],
   "license": "Apache-2.0 AND MIT",
   "dimensions": {

@@ -13,7 +13,8 @@
     "deterministic",
     "experiment",
     "shader",
-    "hf-tab:mockups"
+    "hf-tab:mockups",
+    "hf-family:Product demos"
   ],
   "jobs": [
     "demonstrate"

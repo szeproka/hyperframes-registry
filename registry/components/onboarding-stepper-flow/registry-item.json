@@ -8,7 +8,8 @@
     "ui-flow",
     "onboarding",
     "stepper",
-    "hf-tab:elements"
+    "hf-tab:elements",
+    "hf-family:UI props"
   ],
   "files": [
     {

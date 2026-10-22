@@ -6,7 +6,8 @@
   "description": "A render-safe mesh gradient using animated radial layers.",
   "tags": [
     "effect",
-    "hf-tab:backgrounds"
+    "hf-tab:backgrounds",
+    "hf-family:Other"
   ],
   "files": [
     {

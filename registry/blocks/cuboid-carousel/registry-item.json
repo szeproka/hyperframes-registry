@@ -13,7 +13,8 @@
     "shadows",
     "room-environment",
     "shader",
-    "hf-tab:mockups"
+    "hf-tab:mockups",
+    "hf-family:Carousels"
   ],
   "dimensions": {
     "width": 1920,

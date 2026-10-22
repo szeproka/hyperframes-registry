@@ -12,7 +12,8 @@
     "flow",
     "connections",
     "arcs",
-    "hf-tab:data"
+    "hf-tab:data",
+    "hf-family:Maps"
   ],
   "dimensions": {
     "width": 1920,

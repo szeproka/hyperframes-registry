@@ -11,7 +11,8 @@
     "text",
     "stagger",
     "text-effect",
-    "hf-tab:text"
+    "hf-tab:text",
+    "hf-family:transitions.dev UI kit"
   ],
   "files": [
     {

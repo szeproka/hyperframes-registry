@@ -6,7 +6,8 @@
   "description": "Blur Through transition between two scenes",
   "tags": [
     "transition",
-    "hf-tab:transitions"
+    "hf-tab:transitions",
+    "hf-family:One → Two (full frame)"
   ],
   "dimensions": {
     "width": 1920,

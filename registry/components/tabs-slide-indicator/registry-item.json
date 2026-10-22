@@ -11,7 +11,8 @@
     "indicator",
     "transition",
     "element-transition",
-    "hf-tab:elements"
+    "hf-tab:elements",
+    "hf-family:transitions.dev UI kit"
   ],
   "files": [
     {

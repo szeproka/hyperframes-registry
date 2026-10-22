@@ -17,7 +17,8 @@
     "showcase",
     "depth",
     "loop",
-    "hf-tab:backgrounds"
+    "hf-tab:backgrounds",
+    "hf-family:WebGL scenes"
   ],
   "variables": [
     {

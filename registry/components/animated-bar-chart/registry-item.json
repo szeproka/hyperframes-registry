@@ -6,7 +6,8 @@
   "description": "A compact data card with deterministic bar growth and value callouts.",
   "tags": [
     "data",
-    "hf-tab:data"
+    "hf-tab:data",
+    "hf-family:Charts & counters"
   ],
   "files": [
     {

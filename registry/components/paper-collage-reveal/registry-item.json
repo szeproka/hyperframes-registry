@@ -11,7 +11,8 @@
     "reveal",
     "transition",
     "motion-primitive",
-    "hf-tab:transitions"
+    "hf-tab:transitions",
+    "hf-family:Full-frame wipes & reveals"
   ],
   "files": [
     {

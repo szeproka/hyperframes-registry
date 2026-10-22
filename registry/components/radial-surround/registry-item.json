@@ -11,7 +11,8 @@
     "ring",
     "surround",
     "converge",
-    "hf-tab:data"
+    "hf-tab:data",
+    "hf-family:Motion primitives"
   ],
   "jobs": [
     "agitate"

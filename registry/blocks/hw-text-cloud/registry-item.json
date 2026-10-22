@@ -8,7 +8,8 @@
     "handwritten",
     "speech-bubble",
     "overlay",
-    "hf-tab:callouts"
+    "hf-tab:callouts",
+    "hf-family:Handwritten kit"
   ],
   "dimensions": {
     "width": 1920,

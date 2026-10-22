@@ -12,7 +12,8 @@
     "texture",
     "ambient",
     "loopable",
-    "hf-tab:backgrounds"
+    "hf-tab:backgrounds",
+    "hf-family:Footage overlays"
   ],
   "jobs": [
     "orient"

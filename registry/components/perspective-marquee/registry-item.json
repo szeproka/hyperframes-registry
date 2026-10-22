@@ -8,7 +8,8 @@
     "motion-primitive",
     "typography",
     "text-effect",
-    "hf-tab:3d"
+    "hf-tab:3d",
+    "hf-family:Text animations"
   ],
   "files": [
     {

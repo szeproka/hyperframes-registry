@@ -8,7 +8,8 @@
     "social",
     "overlay",
     "instagram",
-    "hf-tab:social"
+    "hf-tab:social",
+    "hf-family:Platform cards"
   ],
   "dimensions": {
     "width": 1080,

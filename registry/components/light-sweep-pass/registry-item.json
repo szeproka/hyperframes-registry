@@ -11,7 +11,8 @@
     "sweep",
     "slots",
     "deterministic",
-    "hf-tab:looks"
+    "hf-tab:looks",
+    "hf-family:Footage overlays"
   ],
   "jobs": [
     "texture"

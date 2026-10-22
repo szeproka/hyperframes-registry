@@ -14,7 +14,8 @@
     "html-in-canvas",
     "liquid-glass-html-in-canvas",
     "webgpu",
-    "hf-tab:mockups"
+    "hf-tab:mockups",
+    "hf-family:HTML-in-Canvas VFX"
   ],
   "files": [
     {

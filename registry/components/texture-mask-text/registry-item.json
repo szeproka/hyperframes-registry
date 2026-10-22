@@ -10,7 +10,8 @@
     "effect",
     "texture",
     "mask",
-    "hf-tab:text"
+    "hf-tab:text",
+    "hf-family:Text animations"
   ],
   "textureGroups": [
     {

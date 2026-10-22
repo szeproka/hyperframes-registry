@@ -11,7 +11,8 @@
     "end-card",
     "close",
     "ask",
-    "hf-tab:callouts"
+    "hf-tab:callouts",
+    "hf-family:UI props"
   ],
   "jobs": [
     "ask"

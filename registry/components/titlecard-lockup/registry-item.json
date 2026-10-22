@@ -12,7 +12,8 @@
     "breather",
     "orient",
     "text-effect",
-    "hf-tab:text"
+    "hf-tab:text",
+    "hf-family:Text animations"
   ],
   "jobs": [
     "orient"

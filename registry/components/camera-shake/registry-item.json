@@ -10,7 +10,8 @@
     "handheld",
     "effect",
     "cinematic",
-    "hf-tab:3d"
+    "hf-tab:3d",
+    "hf-family:Camera moves"
   ],
   "variables": [
     {

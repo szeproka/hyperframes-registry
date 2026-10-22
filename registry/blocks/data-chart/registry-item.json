@@ -8,7 +8,8 @@
     "data",
     "chart",
     "statistics",
-    "hf-tab:data"
+    "hf-tab:data",
+    "hf-family:Charts & counters"
   ],
   "dimensions": {
     "width": 1920,

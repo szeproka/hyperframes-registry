@@ -10,7 +10,8 @@
     "physics",
     "stack",
     "interruptible-spring",
-    "hf-tab:elements"
+    "hf-tab:elements",
+    "hf-family:Product demos"
   ],
   "jobs": [
     "demonstrate"

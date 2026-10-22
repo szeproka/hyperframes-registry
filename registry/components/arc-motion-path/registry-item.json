@@ -9,7 +9,8 @@
     "motionpath",
     "gsap-plugin",
     "hyperframes-native",
-    "hf-tab:callouts"
+    "hf-tab:callouts",
+    "hf-family:Anime.js-style"
   ],
   "files": [
     {

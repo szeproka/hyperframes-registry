@@ -12,7 +12,8 @@
     "transition",
     "overlay",
     "media-treatment-overlay",
-    "hf-tab:transitions"
+    "hf-tab:transitions",
+    "hf-family:Footage overlays"
   ],
   "dimensions": {
     "width": 1920,

@@ -11,7 +11,8 @@
     "reveal",
     "recontextualize",
     "effect",
-    "hf-tab:3d"
+    "hf-tab:3d",
+    "hf-family:Camera moves"
   ],
   "jobs": [
     "reveal"

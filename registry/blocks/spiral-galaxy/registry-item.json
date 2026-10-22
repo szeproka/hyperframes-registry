@@ -16,7 +16,8 @@
     "particles",
     "webgl",
     "background",
-    "hf-tab:backgrounds"
+    "hf-tab:backgrounds",
+    "hf-family:WebGL scenes"
   ],
   "variables": [
     {

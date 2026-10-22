@@ -8,7 +8,8 @@
     "logo",
     "intro",
     "creator",
-    "hf-tab:scenes"
+    "hf-tab:scenes",
+    "hf-family:Creator kit"
   ],
   "dimensions": {
     "width": 1920,

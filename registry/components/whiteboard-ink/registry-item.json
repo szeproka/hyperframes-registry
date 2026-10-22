@@ -12,7 +12,8 @@
     "whiteboard",
     "line-draw",
     "slot",
-    "hf-tab:scenes"
+    "hf-tab:scenes",
+    "hf-family:Motion primitives"
   ],
   "jobs": [
     "reveal"

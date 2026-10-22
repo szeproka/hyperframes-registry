@@ -11,7 +11,8 @@
     "holdable",
     "before-after",
     "wipe",
-    "hf-tab:mockups"
+    "hf-tab:mockups",
+    "hf-family:UI props"
   ],
   "jobs": [
     "compare"

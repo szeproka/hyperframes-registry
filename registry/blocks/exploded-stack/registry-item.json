@@ -13,7 +13,8 @@
     "layers",
     "diagram",
     "architecture",
-    "hf-tab:3d"
+    "hf-tab:3d",
+    "hf-family:Three.js objects"
   ],
   "dimensions": {
     "width": 1920,

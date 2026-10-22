@@ -149,3 +149,51 @@ def by_tags(name, tags):
 
 def tab_for(name, tags):
     return EXPLICIT.get(name) or by_tags(name, tags)
+
+
+# ── Families: inside a tab, items made and presented the same way sit together ────────────
+
+def _has(tags, *keys):
+    return bool(set(tags or []) & set(keys))
+
+
+# (family, test(name, tags, description)); the first that matches wins.
+FAMILY_RULES = [
+    ("One → Two (full frame)", lambda n, t, d: n.startswith("transition-")),
+    ("Shader transitions", lambda n, t, d: d.startswith("Shader transition")),
+    ("Shaders library (WebGPU)", lambda n, t, d: "A WebGPU shader" in d),
+    ("transitions.dev UI kit", lambda n, t, d: _has(t, "transitions-dev-port")),
+    ("Caption styles", lambda n, t, d: n.startswith("caption-") or n == "mk-callout-highlight"),
+    ("Lower thirds", lambda n, t, d: n.startswith("lt-") or _has(t, "lower-third")),
+    ("Handwritten kit", lambda n, t, d: n.startswith("hw-") or _has(t, "handwritten")),
+    ("Minimal kit", lambda n, t, d: n.startswith("mk-")),
+    ("Creator kit", lambda n, t, d: n.startswith("yt-") or _has(t, "creator")),
+    ("Carousels", lambda n, t, d: n.startswith("carousel-") or n == "cuboid-carousel"),
+    ("Code editors & terminals", lambda n, t, d: _has(t, "code-animation", "terminal")),
+    ("Cursors & pointers", lambda n, t, d: _has(t, "cursor", "pointer", "pointers")),
+    ("Maps", lambda n, t, d: _has(t, "map")),
+    ("Vertical ad templates", lambda n, t, d: _has(t, "ad-template")),
+    ("Platform cards", lambda n, t, d: d.startswith("Animated ") and _has(t, "social")),
+    ("Chat & notifications", lambda n, t, d: _has(t, "chat", "notification", "messages", "conversation")),
+    ("HTML-in-Canvas VFX", lambda n, t, d: _has(t, "html-in-canvas")),
+    ("3D motion (Blender)", lambda n, t, d: _has(t, "3d-motion")),
+    ("Three.js objects", lambda n, t, d: _has(t, "three-js", "3d-object")),
+    ("Footage overlays", lambda n, t, d: _has(t, "media-treatment-overlay", "overlay", "vignette", "grain")),
+    ("Camera moves", lambda n, t, d: _has(t, "camera")),
+    ("Full-frame wipes & reveals", lambda n, t, d: _has(t, "transition") and _has(t, "texture", "wipe", "paper rip", "torn paper", "curtain", "collage", "halftone", "pixelate")),
+    ("Scene bridges (demo cards)", lambda n, t, d: _has(t, "transition", "transition-primitive")),
+    ("UI props", lambda n, t, d: _has(t, "ui-props", "prop", "ui-flow")),
+    ("Product demos", lambda n, t, d: _has(t, "product-demo", "device", "mock-ui", "app")),
+    ("Charts & counters", lambda n, t, d: _has(t, "data", "chart", "data-viz", "counter", "stats")),
+    ("Text animations", lambda n, t, d: _has(t, "text-effect", "typography", "kinetic-type", "text")),
+    ("Anime.js-style", lambda n, t, d: _has(t, "anime-inspired", "advanced-motion", "hyperframes-native")),
+    ("Motion primitives", lambda n, t, d: _has(t, "motion-primitive", "video-primitive")),
+    ("WebGL scenes", lambda n, t, d: _has(t, "webgl", "shader", "webgpu")),
+]
+
+
+def family_for(name, tags, description):
+    for family, test in FAMILY_RULES:
+        if test(name, tags or [], description or ""):
+            return family
+    return "Other"

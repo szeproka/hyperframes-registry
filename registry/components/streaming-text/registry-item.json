@@ -9,7 +9,8 @@
     "text-effect",
     "ai",
     "chat",
-    "hf-tab:text"
+    "hf-tab:text",
+    "hf-family:Chat & notifications"
   ],
   "author": "Miao Yang",
   "variables": [

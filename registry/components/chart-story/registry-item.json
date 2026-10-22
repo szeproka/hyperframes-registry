@@ -14,7 +14,8 @@
     "donut",
     "progress",
     "deterministic",
-    "hf-tab:data"
+    "hf-tab:data",
+    "hf-family:Charts & counters"
   ],
   "jobs": [
     "prove"

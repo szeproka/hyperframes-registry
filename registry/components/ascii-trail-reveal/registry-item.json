@@ -12,7 +12,8 @@
     "trail",
     "grid",
     "shader",
-    "hf-tab:scenes"
+    "hf-tab:scenes",
+    "hf-family:Motion primitives"
   ],
   "jobs": [
     "reveal"

@@ -9,7 +9,8 @@
     "stat",
     "minimal",
     "data",
-    "hf-tab:data"
+    "hf-tab:data",
+    "hf-family:Minimal kit"
   ],
   "dimensions": {
     "width": 1920,

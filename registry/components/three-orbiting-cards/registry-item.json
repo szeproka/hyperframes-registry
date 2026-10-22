@@ -9,7 +9,8 @@
     "three-js",
     "webgl",
     "hyperframes-native",
-    "hf-tab:3d"
+    "hf-tab:3d",
+    "hf-family:Three.js objects"
   ],
   "files": [
     {

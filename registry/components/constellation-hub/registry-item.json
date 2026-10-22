@@ -11,7 +11,8 @@
     "nodes",
     "connector",
     "reveal",
-    "hf-tab:data"
+    "hf-tab:data",
+    "hf-family:Motion primitives"
   ],
   "jobs": [
     "exhibit"

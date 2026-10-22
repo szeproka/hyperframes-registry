@@ -11,7 +11,8 @@
     "blend-mode",
     "contrast",
     "inversion",
-    "hf-tab:text"
+    "hf-tab:text",
+    "hf-family:Caption styles"
   ],
   "files": [
     {

@@ -8,7 +8,8 @@
     "transition",
     "typography",
     "wipe",
-    "hf-tab:transitions"
+    "hf-tab:transitions",
+    "hf-family:Minimal kit"
   ],
   "dimensions": {
     "width": 1920,

@@ -9,7 +9,8 @@
     "chart",
     "ranking",
     "leaderboard",
-    "hf-tab:data"
+    "hf-tab:data",
+    "hf-family:Charts & counters"
   ],
   "dimensions": {
     "width": 1080,

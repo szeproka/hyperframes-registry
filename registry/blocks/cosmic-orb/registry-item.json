@@ -16,7 +16,8 @@
     "background",
     "showcase",
     "3d",
-    "hf-tab:3d"
+    "hf-tab:3d",
+    "hf-family:WebGL scenes"
   ],
   "variables": [
     {

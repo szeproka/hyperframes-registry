@@ -14,7 +14,8 @@
     "before-after",
     "wipe",
     "slots",
-    "hf-tab:mockups"
+    "hf-tab:mockups",
+    "hf-family:UI props"
   ],
   "jobs": [
     "compare"

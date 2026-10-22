@@ -10,7 +10,8 @@
     "texture",
     "halftone",
     "dissolve",
-    "hf-tab:transitions"
+    "hf-tab:transitions",
+    "hf-family:Full-frame wipes & reveals"
   ],
   "jobs": [
     "bridge"

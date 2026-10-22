@@ -12,7 +12,8 @@
     "sci-fi",
     "blue",
     "shader",
-    "hf-tab:3d"
+    "hf-tab:3d",
+    "hf-family:Shaders library (WebGPU)"
   ],
   "license": "Apache-2.0 AND MIT",
   "dimensions": {

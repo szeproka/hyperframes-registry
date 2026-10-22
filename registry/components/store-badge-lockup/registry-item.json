@@ -11,7 +11,8 @@
     "store-badges",
     "cta",
     "ask",
-    "hf-tab:callouts"
+    "hf-tab:callouts",
+    "hf-family:UI props"
   ],
   "jobs": [
     "ask"

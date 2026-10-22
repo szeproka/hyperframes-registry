@@ -6,7 +6,8 @@
   "description": "A terminal window types commands and streams log output.",
   "tags": [
     "code-animation",
-    "hf-tab:code"
+    "hf-tab:code",
+    "hf-family:Code editors & terminals"
   ],
   "files": [
     {

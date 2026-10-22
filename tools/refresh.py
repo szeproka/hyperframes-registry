@@ -242,7 +242,7 @@ def with_studio_tags(tags):
 
 
 def apply_tabs():
-    """Files every item under exactly one Catalog tab (tools/catalog_classes.py); returns how many changed."""
+    """Files every item under one Catalog tab and one family inside it (tools/catalog_classes.py)."""
     changed = 0
     for type_dir in ("blocks", "components"):
         for name in os.listdir(os.path.join(REG, type_dir)):
@@ -250,8 +250,9 @@ def apply_tabs():
             if not os.path.exists(path):
                 continue
             item = json.load(open(path))
-            tags = [t for t in item.get("tags") or [] if not t.startswith("hf-tab:")]
-            tags.append("hf-tab:" + catalog_classes.tab_for(name, tags))
+            tags = [t for t in item.get("tags") or [] if not t.startswith(("hf-tab:", "hf-family:"))]
+            family = catalog_classes.family_for(name, tags, item.get("description"))
+            tags += ["hf-tab:" + catalog_classes.tab_for(name, tags), "hf-family:" + family]
             if tags != item.get("tags"):
                 item["tags"] = tags
                 write_json(path, item)

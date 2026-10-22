@@ -13,7 +13,8 @@
     "pen-tool",
     "bezier",
     "app-chrome",
-    "hf-tab:mockups"
+    "hf-tab:mockups",
+    "hf-family:UI props"
   ],
   "jobs": [
     "demonstrate"

@@ -10,7 +10,8 @@
     "sequencing",
     "bridge",
     "timeline",
-    "hf-tab:scenes"
+    "hf-tab:scenes",
+    "hf-family:Other"
   ],
   "jobs": [
     "bridge"

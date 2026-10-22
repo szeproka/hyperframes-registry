@@ -8,7 +8,8 @@
     "video-primitive",
     "blur-in",
     "text-effect",
-    "hf-tab:text"
+    "hf-tab:text",
+    "hf-family:Text animations"
   ],
   "files": [
     {

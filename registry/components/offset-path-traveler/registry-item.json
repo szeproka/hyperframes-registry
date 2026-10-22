@@ -10,7 +10,8 @@
     "path",
     "traveler",
     "auto-rotate",
-    "hf-tab:elements"
+    "hf-tab:elements",
+    "hf-family:Product demos"
   ],
   "jobs": [
     "demonstrate"

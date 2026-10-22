@@ -9,7 +9,8 @@
     "caption-style",
     "texture",
     "mask",
-    "hf-tab:captions"
+    "hf-tab:captions",
+    "hf-family:Caption styles"
   ],
   "variables": [
     {

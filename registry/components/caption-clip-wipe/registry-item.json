@@ -10,7 +10,8 @@
     "wipe",
     "clip-path",
     "reveal",
-    "hf-tab:captions"
+    "hf-tab:captions",
+    "hf-family:Caption styles"
   ],
   "files": [
     {

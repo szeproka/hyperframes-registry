@@ -11,7 +11,8 @@
     "conversation",
     "vertical",
     "social",
-    "hf-tab:social"
+    "hf-tab:social",
+    "hf-family:Chat & notifications"
   ],
   "author": "Miao Yang",
   "variables": [

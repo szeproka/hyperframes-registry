@@ -16,7 +16,8 @@
     "shader",
     "webgl",
     "effect",
-    "hf-tab:looks"
+    "hf-tab:looks",
+    "hf-family:HTML-in-Canvas VFX"
   ],
   "files": [
     {

@@ -11,7 +11,8 @@
     "morph",
     "state-change",
     "completion",
-    "hf-tab:elements"
+    "hf-tab:elements",
+    "hf-family:Product demos"
   ],
   "jobs": [
     "demonstrate"

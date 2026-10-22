@@ -12,7 +12,8 @@
     "throw",
     "snap",
     "physics",
-    "hf-tab:mockups"
+    "hf-tab:mockups",
+    "hf-family:Motion primitives"
   ],
   "jobs": [
     "exhibit"

@@ -10,7 +10,8 @@
     "3d",
     "cinematic",
     "effect",
-    "hf-tab:3d"
+    "hf-tab:3d",
+    "hf-family:Camera moves"
   ],
   "dimensions": {
     "width": 1920,

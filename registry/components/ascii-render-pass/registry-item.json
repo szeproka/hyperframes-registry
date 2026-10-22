@@ -11,7 +11,8 @@
     "ascii",
     "quantize",
     "shader",
-    "hf-tab:looks"
+    "hf-tab:looks",
+    "hf-family:Motion primitives"
   ],
   "jobs": [
     "reveal"

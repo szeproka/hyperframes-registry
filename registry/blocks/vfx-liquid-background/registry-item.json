@@ -16,7 +16,8 @@
     "webgl",
     "displacement",
     "background",
-    "hf-tab:backgrounds"
+    "hf-tab:backgrounds",
+    "hf-family:HTML-in-Canvas VFX"
   ],
   "files": [
     {

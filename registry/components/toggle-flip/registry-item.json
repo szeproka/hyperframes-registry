@@ -11,7 +11,8 @@
     "interaction",
     "reference-prop",
     "demonstrate",
-    "hf-tab:elements"
+    "hf-tab:elements",
+    "hf-family:UI props"
   ],
   "jobs": [
     "demonstrate"

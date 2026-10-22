@@ -10,7 +10,8 @@
     "spring",
     "mock-ui",
     "overlay",
-    "hf-tab:elements"
+    "hf-tab:elements",
+    "hf-family:Footage overlays"
   ],
   "author": "Miao Yang",
   "variables": [

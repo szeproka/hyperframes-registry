@@ -14,7 +14,8 @@
     "post-processing",
     "phrase-swap",
     "text-effect",
-    "hf-tab:3d"
+    "hf-tab:3d",
+    "hf-family:3D motion (Blender)"
   ],
   "dimensions": {
     "width": 1920,

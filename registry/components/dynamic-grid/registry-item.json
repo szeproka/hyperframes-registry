@@ -11,7 +11,8 @@
     "grid",
     "ui",
     "effect",
-    "hf-tab:backgrounds"
+    "hf-tab:backgrounds",
+    "hf-family:Motion primitives"
   ],
   "files": [
     {

@@ -11,7 +11,8 @@
     "phone",
     "parallax",
     "transition",
-    "hf-tab:transitions"
+    "hf-tab:transitions",
+    "hf-family:Camera moves"
   ],
   "jobs": [
     "transition"

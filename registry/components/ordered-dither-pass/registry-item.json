@@ -11,7 +11,8 @@
     "dither",
     "transition",
     "quantize",
-    "hf-tab:looks"
+    "hf-tab:looks",
+    "hf-family:Full-frame wipes & reveals"
   ],
   "jobs": [
     "reveal",

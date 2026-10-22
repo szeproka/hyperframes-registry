@@ -12,7 +12,8 @@
     "book-open",
     "tilt",
     "slots",
-    "hf-tab:elements"
+    "hf-tab:elements",
+    "hf-family:Motion primitives"
   ],
   "jobs": [
     "compare"

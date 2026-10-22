@@ -6,7 +6,8 @@
   "description": "Draw a strike line across old text, then reveal the replacement.",
   "tags": [
     "motion-primitive",
-    "typography"
+    "typography",
+    "text-effect"
   ],
   "files": [
     {

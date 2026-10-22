@@ -11,7 +11,8 @@
     "travelling-wave",
     "pbr",
     "shadows",
-    "room-environment"
+    "room-environment",
+    "shader"
   ],
   "dimensions": {
     "width": 1920,

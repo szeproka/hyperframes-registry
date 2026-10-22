@@ -6,7 +6,8 @@
   "description": "A fast slide wipe with RGB channel split on peak frames.",
   "tags": [
     "video-primitive",
-    "transition-primitive"
+    "transition-primitive",
+    "transition"
   ],
   "files": [
     {

@@ -14,7 +14,8 @@
     "kinetic-type",
     "title",
     "variable-font",
-    "text"
+    "text",
+    "text-effect"
   ],
   "license": "OFL-1.1",
   "variables": [

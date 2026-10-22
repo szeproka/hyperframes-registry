@@ -9,7 +9,8 @@
     "text-effects",
     "kinetic-type",
     "word-swap",
-    "reveal"
+    "reveal",
+    "text-effect"
   ],
   "jobs": [
     "reveal"

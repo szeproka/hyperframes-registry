@@ -5,7 +5,8 @@
   "title": "Zoom Through Transition",
   "description": "A transition that zooms through a focal card into the next scene.",
   "tags": [
-    "transition-primitive"
+    "transition-primitive",
+    "transition"
   ],
   "variables": [
     {

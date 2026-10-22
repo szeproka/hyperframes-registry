@@ -10,7 +10,8 @@
     "reveal",
     "ascii",
     "trail",
-    "grid"
+    "grid",
+    "shader"
   ],
   "jobs": [
     "reveal"

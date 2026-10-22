@@ -11,7 +11,8 @@
     "focus",
     "pan",
     "slot",
-    "servo"
+    "servo",
+    "effect"
   ],
   "jobs": [
     "demonstrate"

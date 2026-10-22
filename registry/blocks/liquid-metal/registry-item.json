@@ -11,7 +11,8 @@
     "metal",
     "chrome",
     "liquid",
-    "sphere"
+    "sphere",
+    "shader"
   ],
   "license": "Apache-2.0 AND MIT",
   "dimensions": {

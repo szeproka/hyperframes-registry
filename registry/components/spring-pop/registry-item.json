@@ -10,7 +10,8 @@
     "spring",
     "overshoot",
     "pop",
-    "reveal"
+    "reveal",
+    "effect"
   ],
   "jobs": [
     "reveal"

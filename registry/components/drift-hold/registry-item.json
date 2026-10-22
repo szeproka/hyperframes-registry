@@ -10,7 +10,8 @@
     "ambient",
     "drift",
     "hold",
-    "loopable"
+    "loopable",
+    "effect"
   ],
   "jobs": [
     "orient"

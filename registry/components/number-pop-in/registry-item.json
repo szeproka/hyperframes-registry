@@ -9,7 +9,8 @@
     "transition-primitive",
     "transitions-dev-port",
     "number",
-    "pop"
+    "pop",
+    "transition"
   ],
   "files": [
     {

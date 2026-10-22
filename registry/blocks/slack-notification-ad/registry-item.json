@@ -9,7 +9,8 @@
     "mock-ui",
     "notification",
     "vertical",
-    "ad-template"
+    "ad-template",
+    "social"
   ],
   "author": "HeyGen",
   "dimensions": {

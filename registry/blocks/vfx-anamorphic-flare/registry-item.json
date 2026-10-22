@@ -15,7 +15,8 @@
     "background",
     "showcase",
     "optical",
-    "canvas"
+    "canvas",
+    "shader"
   ],
   "variables": [
     {

@@ -10,7 +10,8 @@
     "drag",
     "drop",
     "kanban",
-    "product-demo"
+    "product-demo",
+    "effect"
   ],
   "files": [
     {

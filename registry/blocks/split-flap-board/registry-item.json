@@ -16,7 +16,8 @@
     "split-flap",
     "solari",
     "departure-board",
-    "reveal"
+    "reveal",
+    "text-effect"
   ],
   "variables": [
     {

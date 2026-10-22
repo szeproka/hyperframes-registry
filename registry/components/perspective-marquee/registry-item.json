@@ -6,7 +6,8 @@
   "description": "A 3D tilted marquee with depth feel as items roll toward the horizon.",
   "tags": [
     "motion-primitive",
-    "typography"
+    "typography",
+    "text-effect"
   ],
   "files": [
     {

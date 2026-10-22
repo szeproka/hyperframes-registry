@@ -12,7 +12,8 @@
     "burst",
     "typography",
     "post-processing",
-    "phrase-swap"
+    "phrase-swap",
+    "text-effect"
   ],
   "dimensions": {
     "width": 1920,

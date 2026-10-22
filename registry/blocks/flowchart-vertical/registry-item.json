@@ -8,7 +8,8 @@
     "diagram",
     "flowchart",
     "interactive",
-    "portrait"
+    "portrait",
+    "data"
   ],
   "dimensions": {
     "width": 1440,

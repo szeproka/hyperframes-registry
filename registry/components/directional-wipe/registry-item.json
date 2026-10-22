@@ -5,7 +5,8 @@
   "title": "Directional Wipe",
   "description": "A directional scene push that slides one panel over another.",
   "tags": [
-    "transition-primitive"
+    "transition-primitive",
+    "transition"
   ],
   "variables": [
     {

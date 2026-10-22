@@ -9,7 +9,8 @@
     "chat",
     "mock-ui",
     "conversation",
-    "vertical"
+    "vertical",
+    "social"
   ],
   "author": "Miao Yang",
   "variables": [

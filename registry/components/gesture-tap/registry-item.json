@@ -9,7 +9,8 @@
     "gesture",
     "tap",
     "interaction",
-    "ui-props"
+    "ui-props",
+    "effect"
   ],
   "jobs": [
     "demonstrate"

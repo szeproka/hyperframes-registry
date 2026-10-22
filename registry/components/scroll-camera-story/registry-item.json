@@ -11,7 +11,8 @@
     "story",
     "sections",
     "slot",
-    "servo"
+    "servo",
+    "effect"
   ],
   "jobs": [
     "demonstrate"

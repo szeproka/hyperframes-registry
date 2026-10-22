@@ -10,7 +10,8 @@
     "type",
     "craft",
     "stitch",
-    "deterministic"
+    "deterministic",
+    "text-effect"
   ],
   "jobs": [
     "reveal"

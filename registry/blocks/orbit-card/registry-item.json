@@ -11,7 +11,8 @@
     "dots",
     "orbit",
     "blender-motion",
-    "sphere"
+    "sphere",
+    "shader"
   ],
   "dimensions": {
     "width": 1920,

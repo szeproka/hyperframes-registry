@@ -8,7 +8,8 @@
     "motion-primitive",
     "text",
     "reveal",
-    "blur"
+    "blur",
+    "text-effect"
   ],
   "files": [
     {

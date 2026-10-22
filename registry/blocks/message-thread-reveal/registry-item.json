@@ -9,7 +9,8 @@
     "mock-ui",
     "chat",
     "vertical",
-    "ad-template"
+    "ad-template",
+    "social"
   ],
   "author": "Miao Yang",
   "dimensions": {

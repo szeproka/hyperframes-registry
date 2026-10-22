@@ -10,7 +10,8 @@
     "beat",
     "pulse",
     "rhythmic",
-    "reactive"
+    "reactive",
+    "effect"
   ],
   "jobs": [
     "emphasize"

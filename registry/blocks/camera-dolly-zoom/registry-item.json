@@ -8,7 +8,8 @@
     "camera",
     "depth",
     "3d",
-    "cinematic"
+    "cinematic",
+    "effect"
   ],
   "dimensions": {
     "width": 1920,

@@ -14,7 +14,8 @@
     "lower-third",
     "glow",
     "loop",
-    "video-primitive"
+    "video-primitive",
+    "social"
   ],
   "variables": [
     {

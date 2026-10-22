@@ -9,7 +9,8 @@
     "experiment",
     "type",
     "variable-font",
-    "deterministic"
+    "deterministic",
+    "text-effect"
   ],
   "jobs": [
     "emphasize"

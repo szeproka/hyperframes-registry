@@ -9,7 +9,8 @@
     "transition-primitive",
     "transitions-dev-port",
     "icon",
-    "swap"
+    "swap",
+    "transition"
   ],
   "files": [
     {

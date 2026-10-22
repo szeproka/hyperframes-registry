@@ -10,7 +10,8 @@
     "particles",
     "reveal",
     "canvas",
-    "deterministic"
+    "deterministic",
+    "shader"
   ],
   "jobs": [
     "reveal"

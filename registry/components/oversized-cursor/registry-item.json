@@ -9,7 +9,8 @@
     "motion-primitive",
     "actor",
     "pointer",
-    "interaction"
+    "interaction",
+    "effect"
   ],
   "files": [
     {

@@ -10,7 +10,8 @@
     "push-in",
     "focus",
     "emphasize",
-    "holdable"
+    "holdable",
+    "effect"
   ],
   "jobs": [
     "emphasize"

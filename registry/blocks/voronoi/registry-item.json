@@ -10,7 +10,8 @@
     "background",
     "pattern",
     "cells",
-    "voronoi"
+    "voronoi",
+    "shader"
   ],
   "license": "Apache-2.0 AND MIT",
   "dimensions": {

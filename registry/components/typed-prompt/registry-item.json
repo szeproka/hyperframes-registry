@@ -9,7 +9,8 @@
     "product-demo",
     "typing",
     "prompt",
-    "deterministic"
+    "deterministic",
+    "text-effect"
   ],
   "jobs": [
     "demonstrate"

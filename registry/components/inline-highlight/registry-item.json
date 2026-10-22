@@ -8,7 +8,8 @@
     "motion-primitive",
     "text",
     "highlight",
-    "caption"
+    "caption",
+    "text-effect"
   ],
   "files": [
     {

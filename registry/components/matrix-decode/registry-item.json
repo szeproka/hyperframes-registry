@@ -6,7 +6,8 @@
   "description": "Random scramble resolves left-to-right into the target text.",
   "tags": [
     "motion-primitive",
-    "typography"
+    "typography",
+    "text-effect"
   ],
   "files": [
     {

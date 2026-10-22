@@ -10,7 +10,8 @@
     "title-card",
     "lockup",
     "breather",
-    "orient"
+    "orient",
+    "text-effect"
   ],
   "jobs": [
     "orient"

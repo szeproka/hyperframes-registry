@@ -10,7 +10,8 @@
     "slit-scan",
     "canvas",
     "deterministic",
-    "experiment"
+    "experiment",
+    "shader"
   ],
   "jobs": [
     "reveal"

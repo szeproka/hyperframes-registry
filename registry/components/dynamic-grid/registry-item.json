@@ -9,7 +9,8 @@
     "motion-primitive",
     "background",
     "grid",
-    "ui"
+    "ui",
+    "effect"
   ],
   "files": [
     {

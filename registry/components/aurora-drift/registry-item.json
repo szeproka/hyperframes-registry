@@ -10,7 +10,8 @@
     "aurora",
     "gradient",
     "ambient",
-    "loopable"
+    "loopable",
+    "effect"
   ],
   "jobs": [
     "orient"

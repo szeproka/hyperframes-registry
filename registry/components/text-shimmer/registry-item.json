@@ -9,7 +9,8 @@
     "text-effects",
     "shimmer",
     "specular",
-    "emphasis"
+    "emphasis",
+    "text-effect"
   ],
   "jobs": [
     "emphasize"

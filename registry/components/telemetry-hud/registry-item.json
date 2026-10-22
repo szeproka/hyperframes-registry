@@ -9,7 +9,8 @@
     "product-demo",
     "hud",
     "telemetry",
-    "deterministic"
+    "deterministic",
+    "data"
   ],
   "jobs": [
     "demonstrate"

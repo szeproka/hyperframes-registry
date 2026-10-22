@@ -11,7 +11,8 @@
     "trail",
     "tutorial",
     "steps",
-    "deterministic"
+    "deterministic",
+    "effect"
   ],
   "jobs": [
     "demonstrate"

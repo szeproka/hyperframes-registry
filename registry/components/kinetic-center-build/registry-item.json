@@ -9,7 +9,8 @@
     "text-effects",
     "kinetic-type",
     "reveal",
-    "remocn-port"
+    "remocn-port",
+    "text-effect"
   ],
   "jobs": [
     "reveal"

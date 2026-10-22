@@ -10,7 +10,8 @@
     "pointer",
     "click",
     "motion-blur",
-    "depth"
+    "depth",
+    "effect"
   ],
   "files": [
     {

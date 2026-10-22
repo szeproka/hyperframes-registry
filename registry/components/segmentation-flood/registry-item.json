@@ -11,7 +11,8 @@
     "hud",
     "canvas",
     "deterministic",
-    "experiment"
+    "experiment",
+    "shader"
   ],
   "jobs": [
     "demonstrate"

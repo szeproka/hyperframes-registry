@@ -9,7 +9,8 @@
     "typography",
     "annotation",
     "marker",
-    "deterministic"
+    "deterministic",
+    "text-effect"
   ],
   "jobs": [
     "emphasize"

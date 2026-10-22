@@ -10,7 +10,8 @@
     "trail",
     "onion-skin",
     "ghosts",
-    "deterministic"
+    "deterministic",
+    "effect"
   ],
   "jobs": [
     "demonstrate"

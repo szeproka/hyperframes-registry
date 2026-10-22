@@ -6,7 +6,8 @@
   "description": "A premium focus pull from heavy blur to crisp text, then a soft blur-out exit.",
   "tags": [
     "motion-primitive",
-    "typography"
+    "typography",
+    "text-effect"
   ],
   "files": [
     {

@@ -11,7 +11,8 @@
     "voronoi",
     "shards",
     "fog",
-    "hdr"
+    "hdr",
+    "shader"
   ],
   "dimensions": {
     "width": 1920,

@@ -6,7 +6,8 @@
   "description": "Per-word vertical shared-axis transition for sharp editorial swaps.",
   "tags": [
     "motion-primitive",
-    "typography"
+    "typography",
+    "text-effect"
   ],
   "files": [
     {

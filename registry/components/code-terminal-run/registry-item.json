@@ -9,7 +9,8 @@
     "product-demo",
     "terminal",
     "typing",
-    "deterministic"
+    "deterministic",
+    "code-animation"
   ],
   "jobs": [
     "demonstrate"

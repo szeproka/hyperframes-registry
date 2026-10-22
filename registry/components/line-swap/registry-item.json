@@ -9,7 +9,8 @@
     "text-effects",
     "swap",
     "beat",
-    "deterministic"
+    "deterministic",
+    "text-effect"
   ],
   "jobs": [
     "emphasize"

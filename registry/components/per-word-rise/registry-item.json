@@ -9,7 +9,8 @@
     "text-effects",
     "typography",
     "stagger",
-    "reveal"
+    "reveal",
+    "text-effect"
   ],
   "jobs": [
     "reveal"

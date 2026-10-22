@@ -8,7 +8,8 @@
     "motion-primitive",
     "text",
     "reveal",
-    "typography"
+    "typography",
+    "text-effect"
   ],
   "files": [
     {

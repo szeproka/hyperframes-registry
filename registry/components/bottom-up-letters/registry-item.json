@@ -8,7 +8,8 @@
     "motion-primitive",
     "text",
     "letters",
-    "reveal"
+    "reveal",
+    "text-effect"
   ],
   "files": [
     {

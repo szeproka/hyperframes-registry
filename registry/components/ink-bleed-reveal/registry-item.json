@@ -11,7 +11,8 @@
     "gooey",
     "svg-filter",
     "deterministic",
-    "experiment"
+    "experiment",
+    "shader"
   ],
   "jobs": [
     "reveal"

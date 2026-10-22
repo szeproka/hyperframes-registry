@@ -9,7 +9,8 @@
     "transition-primitive",
     "transitions-dev-port",
     "menu",
-    "morph"
+    "morph",
+    "transition"
   ],
   "files": [
     {

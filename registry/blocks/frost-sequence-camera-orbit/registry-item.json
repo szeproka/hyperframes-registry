@@ -12,7 +12,8 @@
     "logo",
     "particles",
     "webgpu",
-    "two-headlines"
+    "two-headlines",
+    "shader"
   ],
   "dimensions": {
     "width": 1920,

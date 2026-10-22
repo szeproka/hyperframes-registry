@@ -10,7 +10,8 @@
     "select",
     "marquee",
     "grid",
-    "product-demo"
+    "product-demo",
+    "effect"
   ],
   "files": [
     {

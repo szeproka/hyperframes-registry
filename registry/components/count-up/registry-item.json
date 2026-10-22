@@ -11,7 +11,8 @@
     "counter",
     "number",
     "countdown",
-    "deterministic"
+    "deterministic",
+    "data"
   ],
   "jobs": [
     "prove"

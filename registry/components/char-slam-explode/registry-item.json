@@ -10,7 +10,8 @@
     "text-treatment",
     "scatter",
     "slam",
-    "impact"
+    "impact",
+    "text-effect"
   ],
   "jobs": [
     "emphasize"

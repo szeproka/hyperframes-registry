@@ -9,7 +9,8 @@
     "text-effects",
     "scramble",
     "reveal",
-    "deterministic"
+    "deterministic",
+    "text-effect"
   ],
   "jobs": [
     "reveal"

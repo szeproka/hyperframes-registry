@@ -8,7 +8,8 @@
     "video-primitive",
     "chat",
     "mock-ui",
-    "message"
+    "message",
+    "social"
   ],
   "author": "Miao Yang",
   "variables": [

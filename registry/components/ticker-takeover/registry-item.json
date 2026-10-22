@@ -10,7 +10,8 @@
     "ticker",
     "slot-machine",
     "headline",
-    "reveal"
+    "reveal",
+    "text-effect"
   ],
   "jobs": [
     "reveal"

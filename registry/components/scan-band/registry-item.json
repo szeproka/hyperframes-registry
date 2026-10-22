@@ -10,7 +10,8 @@
     "scan",
     "chromatic",
     "distortion",
-    "wordmark"
+    "wordmark",
+    "text-effect"
   ],
   "jobs": [
     "reveal"

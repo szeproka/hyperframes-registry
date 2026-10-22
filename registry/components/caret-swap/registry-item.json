@@ -10,7 +10,8 @@
     "typography",
     "swap",
     "typewriter",
-    "remocn-port"
+    "remocn-port",
+    "text-effect"
   ],
   "jobs": [
     "emphasize"

@@ -10,7 +10,8 @@
     "background",
     "light",
     "rays",
-    "radial"
+    "radial",
+    "shader"
   ],
   "license": "Apache-2.0 AND MIT",
   "dimensions": {

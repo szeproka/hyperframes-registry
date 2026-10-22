@@ -9,7 +9,8 @@
     "experiment",
     "texture",
     "ascii",
-    "quantize"
+    "quantize",
+    "shader"
   ],
   "jobs": [
     "reveal"

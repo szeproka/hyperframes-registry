@@ -10,7 +10,8 @@
     "outline",
     "border",
     "mask",
-    "proof"
+    "proof",
+    "effect"
   ],
   "jobs": [
     "prove"

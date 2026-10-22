@@ -6,7 +6,8 @@
   "description": "Each line enters from the left with staggered slide and exits to the right.",
   "tags": [
     "motion-primitive",
-    "typography"
+    "typography",
+    "text-effect"
   ],
   "files": [
     {

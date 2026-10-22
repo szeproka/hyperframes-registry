@@ -10,7 +10,8 @@
     "mobile",
     "gesture",
     "touch",
-    "pointer"
+    "pointer",
+    "effect"
   ],
   "variables": [
     {

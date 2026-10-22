@@ -9,7 +9,8 @@
     "wordmark",
     "tiles",
     "raster",
-    "reveal"
+    "reveal",
+    "text-effect"
   ],
   "jobs": [
     "reveal"

@@ -19,6 +19,6 @@
   ],
   "preview": {
     "poster": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/components/grain-overlay.png",
-    "video": "https://cdn.jsdelivr.net/gh/szeproka/hyperframes-registry@main/previews/grain-overlay.mp4"
+    "video": "https://raw.githubusercontent.com/szeproka/hyperframes-registry/main/previews/grain-overlay.mp4"
   }
 }

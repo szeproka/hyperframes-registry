@@ -21,6 +21,6 @@
   ],
   "preview": {
     "poster": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/components/motion-blur.png",
-    "video": "https://cdn.jsdelivr.net/gh/szeproka/hyperframes-registry@main/previews/motion-blur.mp4"
+    "video": "https://raw.githubusercontent.com/szeproka/hyperframes-registry/main/previews/motion-blur.mp4"
   }
 }

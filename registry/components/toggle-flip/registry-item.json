@@ -66,7 +66,7 @@
     }
   ],
   "preview": {
-    "video": "https://cdn.jsdelivr.net/gh/szeproka/hyperframes-registry@main/previews/toggle-flip.mp4",
-    "poster": "https://cdn.jsdelivr.net/gh/szeproka/hyperframes-registry@main/previews/toggle-flip.jpg"
+    "video": "https://raw.githubusercontent.com/szeproka/hyperframes-registry/main/previews/toggle-flip.mp4",
+    "poster": "https://raw.githubusercontent.com/szeproka/hyperframes-registry/main/previews/toggle-flip.jpg"
   }
 }

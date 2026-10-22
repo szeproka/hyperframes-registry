@@ -23,12 +23,14 @@ PREVIEWS = os.path.join(ROOT, "previews")
 WORK = os.path.expanduser("~/.cache/hyperframes-registry-refresh")
 UPSTREAM_GIT = "https://github.com/heygen-com/hyperframes.git"
 UPSTREAM_PARTS = ["blocks", "components", "examples", "catalog-artifact", "registry.json"]
-# Previews go through jsDelivr: browsers may keep its files 7 days (raw.githubusercontent: 5 min) and it
-# serves .mp4 as video/mp4 (raw.githubusercontent: application/octet-stream).
-PREVIEW_BASE = "https://cdn.jsdelivr.net/gh/szeproka/hyperframes-registry@main/previews/"
+# Previews go through raw.githubusercontent: jsDelivr's gh/...@main left cold files hanging 20 s
+# and more (measured 2026-10-22), raw answers in ~0.3 s. Its .mp4 type is
+# application/octet-stream, which Chrome still plays; browsers keep its files 5 min, then
+# revalidate cheaply by ETag.
+PREVIEW_BASE = "https://raw.githubusercontent.com/szeproka/hyperframes-registry/main/previews/"
 VIDEO_BASE = PREVIEW_BASE
-# Poster links written before 2026-10-22 pointed here; they are ours too and get rewritten.
-LEGACY_PREVIEW_BASE = "https://raw.githubusercontent.com/szeproka/hyperframes-registry/main/previews/"
+# Links written on 2026-10-22 pointed at jsDelivr; they are ours too and get rewritten.
+LEGACY_PREVIEW_BASE = "https://cdn.jsdelivr.net/gh/szeproka/hyperframes-registry@main/previews/"
 OUR_BASES = (PREVIEW_BASE, LEGACY_PREVIEW_BASE)
 TYPE_DIRS = {"hyperframes:block": "blocks", "hyperframes:component": "components"}
 

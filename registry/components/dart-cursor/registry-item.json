@@ -161,7 +161,7 @@
     }
   ],
   "preview": {
-    "video": "https://cdn.jsdelivr.net/gh/szeproka/hyperframes-registry@main/previews/dart-cursor.mp4",
-    "poster": "https://cdn.jsdelivr.net/gh/szeproka/hyperframes-registry@main/previews/dart-cursor.jpg"
+    "video": "https://raw.githubusercontent.com/szeproka/hyperframes-registry/main/previews/dart-cursor.mp4",
+    "poster": "https://raw.githubusercontent.com/szeproka/hyperframes-registry/main/previews/dart-cursor.jpg"
   }
 }

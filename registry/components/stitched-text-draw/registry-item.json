@@ -106,7 +106,7 @@
     }
   ],
   "preview": {
-    "video": "https://cdn.jsdelivr.net/gh/szeproka/hyperframes-registry@main/previews/stitched-text-draw.mp4",
-    "poster": "https://cdn.jsdelivr.net/gh/szeproka/hyperframes-registry@main/previews/stitched-text-draw.jpg"
+    "video": "https://raw.githubusercontent.com/szeproka/hyperframes-registry/main/previews/stitched-text-draw.mp4",
+    "poster": "https://raw.githubusercontent.com/szeproka/hyperframes-registry/main/previews/stitched-text-draw.jpg"
   }
 }

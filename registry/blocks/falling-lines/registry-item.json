@@ -39,6 +39,6 @@
   ],
   "preview": {
     "video": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/falling-lines.mp4",
-    "poster": "https://cdn.jsdelivr.net/gh/szeproka/hyperframes-registry@main/previews/falling-lines.jpg"
+    "poster": "https://raw.githubusercontent.com/szeproka/hyperframes-registry/main/previews/falling-lines.jpg"
   }
 }

@@ -49,12 +49,23 @@ def slug(title):
     return "transition-" + re.sub(r"[^a-z0-9]+", "-", title.lower()).strip("-")
 
 
+# A delayed `fromTo` on the incoming scene: upstream shows scene 2 at T but only applies its
+# start state (scaled down, transparent, offset) at T + delay, so scene 2 flashes full size for
+# that delay. Setting the start state at T as well removes the flash (zoom through, pushes...).
+DELAYED_ENTRANCE = re.compile(r'(tl\.fromTo\(\s*"#s2",\s*(\{[^}]*\}),\s*\{[^}]*\},\s*T\s*\+\s*[0-9.]+\s*,?\s*\);)')
+
+
+def no_entrance_flash(html):
+    return DELAYED_ENTRANCE.sub(lambda m: f'tl.set("#s2", {m.group(2)}, T);\n        {m.group(1)}', html)
+
+
 def windowed(html, start, end):
     length = round(end - start, 3)
     # Stop one frame short: the next demo resets the scenes exactly at `end`.
     stop = round(end - 1 / 30, 3)
     if html.count(REGISTER) != 1 or "</head>" not in html:
         raise ValueError("unexpected showcase layout")
+    html = no_entrance_flash(html)
     html = re.sub(r'data-duration="[0-9.]+"', f'data-duration="{length}"', html, count=1)
     html = html.replace("</head>", HIDE_CSS + "  </head>", 1)
     # The showcase timeline keeps every tween, so seeking into the window lands in exactly the

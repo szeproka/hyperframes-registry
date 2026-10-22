@@ -316,6 +316,7 @@
           T,
         );
         tl.set("#scene2", { opacity: 1 }, T);
+        tl.set("#s2", { filter: "blur(15px)", scale: 0.95, opacity: 0 }, T);
         tl.fromTo(
           "#s2",
           { filter: "blur(15px)", scale: 0.95, opacity: 0 },
@@ -343,6 +344,7 @@
           T,
         );
         tl.set("#scene2", { opacity: 1 }, T);
+        tl.set("#s2", { filter: "blur(12px)", skewX: 8, x: 200, opacity: 0 }, T);
         tl.fromTo(
           "#s2",
           { filter: "blur(12px)", skewX: 8, x: 200, opacity: 0 },
@@ -360,6 +362,7 @@
         tl.to("#s1", { filter: "blur(30px)", scale: 1.08, duration: 0.5, ease: "power1.in" }, T);
         tl.to("#s1", { opacity: 0, duration: 0.3, ease: "power1.in" }, T + 0.3);
         tl.set("#scene2", { opacity: 1 }, T + 0.3);
+        tl.set("#s2", { filter: "blur(30px)", scale: 0.92, opacity: 0 }, T);
         tl.fromTo(
           "#s2",
           { filter: "blur(30px)", scale: 0.92, opacity: 0 },

@@ -10,7 +10,8 @@
     "transitions-dev-port",
     "ui",
     "transition",
-    "microinteraction"
+    "microinteraction",
+    "element-transition"
   ],
   "files": [
     {

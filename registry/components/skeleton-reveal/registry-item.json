@@ -10,7 +10,8 @@
     "transitions-dev-port",
     "skeleton",
     "reveal",
-    "transition"
+    "transition",
+    "element-transition"
   ],
   "files": [
     {

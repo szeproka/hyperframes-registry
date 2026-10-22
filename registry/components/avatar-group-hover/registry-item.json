@@ -10,7 +10,8 @@
     "transitions-dev-port",
     "avatar",
     "hover",
-    "transition"
+    "transition",
+    "element-transition"
   ],
   "files": [
     {

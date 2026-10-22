@@ -9,7 +9,8 @@
     "transitions-dev-port",
     "panel",
     "reveal",
-    "transition"
+    "transition",
+    "element-transition"
   ],
   "files": [
     {

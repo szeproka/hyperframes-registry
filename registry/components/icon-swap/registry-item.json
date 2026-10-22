@@ -10,7 +10,8 @@
     "transitions-dev-port",
     "icon",
     "swap",
-    "transition"
+    "transition",
+    "element-transition"
   ],
   "files": [
     {

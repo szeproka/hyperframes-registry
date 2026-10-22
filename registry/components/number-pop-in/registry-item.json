@@ -10,7 +10,8 @@
     "transitions-dev-port",
     "number",
     "pop",
-    "transition"
+    "transition",
+    "element-transition"
   ],
   "files": [
     {

@@ -10,7 +10,8 @@
     "transitions-dev-port",
     "card",
     "layout",
-    "transition"
+    "transition",
+    "element-transition"
   ],
   "files": [
     {

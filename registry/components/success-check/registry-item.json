@@ -10,7 +10,8 @@
     "transitions-dev-port",
     "success",
     "check",
-    "transition"
+    "transition",
+    "element-transition"
   ],
   "files": [
     {

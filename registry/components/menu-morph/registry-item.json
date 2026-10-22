@@ -10,7 +10,8 @@
     "transitions-dev-port",
     "menu",
     "morph",
-    "transition"
+    "transition",
+    "element-transition"
   ],
   "files": [
     {

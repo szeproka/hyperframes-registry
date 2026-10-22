@@ -10,7 +10,8 @@
     "transitions-dev-port",
     "badge",
     "microinteraction",
-    "transition"
+    "transition",
+    "element-transition"
   ],
   "files": [
     {
